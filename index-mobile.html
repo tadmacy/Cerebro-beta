@@ -1,0 +1,442 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type"  content="text/html; charset=utf-8">
+<title>Cerebro Styling 1</title>
+<link href="/webDevTests/Cerebro/beta/styling-2-mobile.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/Flashcard.js"></script>
+<script type="text/javascript" src="js/Deck.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+var XMLData = "greek_words.xml";
+
+//	Default user options
+var side2First = false;
+var showBothSides = false;
+
+//************************************************************************
+// 		Changes below here are discouraged...                                 
+//************************************************************************
+
+
+//	For the Greek Flashcard Project, the matrix of cards holds the words,
+//	their meanings, and optionally, a third side with additonal meanings.
+//	
+//	In the case of Greek words, side 1 is the word, side 2 is
+//	the meaning in Greek, side 3 is the English equivalent.
+var cards = new Array();
+//var cardNumber = 0;
+var currentCard = 0;
+
+var NOUN = 0;
+var VERB = 1;
+var VOCAB = 2;
+
+var selectedCategory;
+var deckObj = Array();
+var currentDeck;
+var flip = false;
+
+//	DOM data: the DIV id's of the 'card' and display DIV for a 'side'.
+//	Note that innerHTML issues with DOM in IE (Internnet Explorer) force
+//	the use of 'card' as the parent of the 'side'. We remove and add side
+//	DIV's rather that use innerHTML. See here for more:
+//
+//		http://slayeroffice.com/articles/innerHTML_alternatives/#3a
+//
+var cardDivId = 'card';
+var cardElem;	//DOM element
+var cardSideDivId = "side";
+var cardSideElem;	// DOM element
+/*var cardSideContentDivId = "content";
+var cardSideContentElem;	// DOM element
+var cardSideContent2DivId = "content2";
+var cardSideContent2Elem;	// DOM element*/
+var cardIdCategoryDivId = "showCategory"; 	// DOM element
+var cardIdCategoryElem; 	// DOM element
+var cardIdSideNameDivId = "showSideName"; 	// DOM element
+var cardIdSideNameElem; 	// DOM element
+// DOM for the page counter
+var pageCountDivId = "pageCount";
+var pageCountElem;	// DOM element
+
+// This holds all of the cards in the deck (Flashcard objs)
+var cardObjs = Array();
+var DEBUG = false;
+
+function myLoad() {
+	//	Set/reset options on page load.
+	document.frmOptions.side2.checked = side2First;
+	document.frmOptions.bothSides.checked = showBothSides;
+	selectedCategory = VOCAB;
+	var frmObj = document.frmChooseDeck;
+	for (var i = 0; i < frmObj.category.length; i++) {
+		if (frmObj.category[i].value == "VOCAB") {
+			frmObj.category[i].checked = true;
+		} else {
+		    frmObj.category[i].checked = false;
+		}
+	}
+		
+	cardElem = document.getElementById(cardDivId);
+	cardSideElem = document.getElementById(cardSideDivId);
+	// side 1 content
+	//cardSideContentElem = document.getElementById(cardSideContentDivId);
+	// side 2 content
+	//cardSideContent2Elem = document.getElementById(cardSideContent2DivId);
+	
+	pageCountElem = document.getElementById(pageCountDivId);
+	var XMLDoc = importXML();
+	// Create decks by category from data
+	parseXML(XMLDoc);
+	
+	currentDeck = deckObj[selectedCategory];
+	//alert("load: len:"+deckObj[selectedCategory].getSize()+", "+currentDeck.getSize()+"; cat:"+selectedCategory+"; len cardObjs="+cardObjs.length);	
+	currentCard = currentDeck.getIndexCurrent();
+	displayCard();
+}
+
+
+/**************************************************************************/
+
+
+function displayCard() {
+	
+	var c = currentDeck.getCard(currentCard);
+		
+	var side1 = 0;
+	var side2 = 1;
+	if (selectedCategory == VOCAB && c.getNumberOfSides() == 3) {
+		side2 = 2;
+	}
+	
+	if (side2First) {
+		side1 = side2;
+		side2 = 0;
+	}
+	
+	if (flip) {
+		side1 = side2;
+		side2 = 0;
+	}
+	
+	var side1Str = c.getContentById(side1);
+	var side2Str =  c.getContentById(side2);
+	
+	cardSideElem.innerHTML = "";
+	var displayAttr1 = computeSizes(side1Str);
+	var displayAttr2 = computeSizes(side2Str);
+	
+	var s = '<span style="font-size:' + displayAttr1[0] + '%;"' + ' class="center">' + side1Str + '</span>';
+	if (showBothSides) {
+		s += '<hr />' + '<span style="font-size:' + displayAttr2[0] + '%;"' + ' class="center">' + side2Str + '</span>';
+	}
+	cardSideElem.innerHTML = s;
+	if (showBothSides) {	
+		cardSideElem.style.top = ((displayAttr1[1] < displayAttr2[1]) ? displayAttr1[1] : displayAttr2[1]) + "%" ;
+		//alert("top="+cardSideElem.style.top);
+	}
+	
+	var txt = "Side " + ((side1 == 0) ? 1 : 2);
+	if (showBothSides) {
+		txt = "Both Sides";
+	}
+	// category display
+	cardIdCategoryElem = document.getElementById(cardIdCategoryDivId);
+	cardIdCategoryElem.innerHTML = txt;
+	
+	txt = "Noun";
+	if (selectedCategory == VOCAB) {
+		txt = "Vocabulary";
+	} else if (selectedCategory == VERB) {
+		txt = "Verb";
+	}
+	//  side name display
+	cardIdSideNameElem = document.getElementById(cardIdSideNameDivId);
+	cardIdSideNameElem.innerHTML = txt;
+	
+	var pg = "(" + eval(currentCard+1) + " of " + currentDeck.getSize() + ")";
+	if (DEBUG) {
+		// for debugging size
+		pg += "s1="+side1Str.length+"; f="+displayAttr1[0]+"; t="+displayAttr1[1]+"; w="+displayAttr1[2];
+		pg += "; s2="+side2Str.length+"; f="+displayAttr2[0]+"; t="+displayAttr2[1]+"; w="+displayAttr2[2];
+	}
+	pageCountElem.innerHTML = pg;
+	
+	return;
+}
+
+
+function computeSizes(str) {
+	//var top = "30%";	// default from CSS
+	
+	var size = 400; 	// default from CSS
+	var top = 45;
+	var len = str.length;
+	
+	var words = 1;
+	for (var i = 0; i < len; i++) {
+		if (str.charAt(i) == " ") {
+			words++;
+		}
+	}
+	
+	var wAveLen = parseInt(len / words);
+	
+	if (len >= 60) {
+		size = 200;
+		top *= .6;
+	} else if (len >= 30) {
+		//alert("more than 30");
+		size = 250;
+		top = 38;
+		if (wAveLen >= 9) {
+			size = 220;
+			top *= .7;
+		}
+	} else if (len >= 16) {
+		//alert("more than 16");
+		size = 350;
+		top *= .85;
+		if (showBothSides) {
+			//top = "10%";
+			size = 300;
+		}
+	}
+	
+	return(Array(size, top, wAveLen));
+}
+
+function handlerCardAction(thisbtn) {
+	//	Handle users request:
+	//	Changed to button value when "<button...>" caused issues with IE.
+	//		-2 - Restart
+	//		-1 - Previous
+	//		 0 - Flip Card
+	//		 1 - Next card
+	 
+	with (thisbtn) {
+		switch(name) {
+			case "restart":
+				flip = 0;
+				currentCard = currentDeck.setIndexTo(0)
+				break;
+			case "previous":
+				flip = 0;
+				currentCard = currentDeck.getIndexPrevious();
+				break;
+			case "flip":
+				flip = (flip) ? 0 : 1;
+				break;
+			case "next":
+				flip = 0;
+				currentCard = currentDeck.getIndexNext();
+				break;
+		}
+		displayCard();
+	}
+}
+
+
+function handlerCategory(frmObj) {
+ 
+	for (var i = 0; i < frmObj.category.length; i++) {
+		//alert("radio value: "+document.frmOptions.category[i].value);
+		if (frmObj.category[i].checked) {
+			//alert("user choose:"+frmObj.category[i].value);
+			switch (frmObj.category[i].value)  {
+				case "NOUN":
+					selectedCategory = NOUN;
+					break;
+				case "VOCAB":
+					selectedCategory = VOCAB;
+					break;
+				case "VERB":
+					selectedCategory = VERB;
+					break;
+			}
+		}
+	}
+	
+	currentDeck = deckObj[selectedCategory];
+	currentCard = currentDeck.getIndexCurrent();
+	displayCard();
+}
+
+function handlerSides(obj) {
+	//  All decks have only two sides. Choose which side is first
+	//	or to see both sides at once.
+	with (obj) {
+		switch (name) {
+			case "side2":
+				side2First = (side2First) ? false : true;
+				break;
+			case "bothSides":
+				showBothSides = (showBothSides) ? false : true;
+				break;
+		}
+	}
+	displayCard();
+}
+
+
+function importXML() {
+	var XMLDoc = -1;
+	var tmpDoc;
+	
+	if (document.implementation && document.implementation.createDocument) {
+		//tmpDoc = document.implementation.createDocument("", "", null);
+		var xmlhttp = new window.XMLHttpRequest();
+		xmlhttp.open("GET", XMLData, false);
+		xmlhttp.send(null);
+		tmpDoc = xmlhttp.responseXML.documentElement;
+	} else if (window.ActiveXObject) {
+		tmpDoc = new ActiveXObject("Microsoft.XMLDOM");	
+		tmpDoc.async = false;
+		tmpDoc.load(XMLData);
+ 	} else {
+		alert('Your browser can\'t handle this script');
+		return;
+	}
+	
+	if (tmpDoc != null) {
+		XMLDoc = tmpDoc;
+	}
+	
+
+	return(XMLDoc);
+}
+
+
+function parseXML(XMLDoc) {
+
+	// Gloabl deckObj stores all decks.
+	deckObj[VOCAB] = new Deck(VOCAB);
+	deckObj[NOUN]  = new Deck(NOUN);
+	deckObj[VERB]  = new Deck(VERB);
+	
+	var cardsElem = XMLDoc.getElementsByTagName("card");
+	var card = "";
+	//alert("el len:"+cardsElem.length);
+	for (var i = 0; i < cardsElem.length; i++) {
+		cardObjs[i] = new Flashcard(cardsElem[i]);
+		card = cardObjs[i];
+		deckObj[VOCAB].addCard(card);
+		if (card.getCategory() == NOUN) {
+			deckObj[NOUN].addCard(card);
+		} else if (card.getCategory() == VERB) {
+			deckObj[VERB].addCard(card);
+		}
+	}
+		//alert("Size (VOCAB): " + deckObj[VOCAB].cards.length);
+/*	if (DEBUG == 1) {
+		card = deckObj[VOCAB].getCard(7);
+		alert("sanity check: " + card.getContentById(0));
+		alert("sanity check: " + card.getContentById(1));
+		alert("sanity check: " + card.getContentById(2));
+		//alert("end");
+		exit;
+	}*/
+}
+
+
+function removeElement(divNum) {
+	var d = document.getElementById('myDiv');
+	var olddiv = document.getElementById(divNum);
+	d.removeChild(olddiv);
+}
+
+
+function so_clearInnerHTML(obj) {
+    // from http://slayeroffice.com/articles/innerHTML_alternatives/#3a
+	// perform a shallow clone on obj
+	nObj = obj.cloneNode(false);
+	// insert the cloned object into the DOM before the original one
+	obj.parentNode.insertBefore(nObj,obj);
+	// remove the original object
+	obj.parentNode.removeChild(obj);
+}
+
+// ]]>
+</script>
+</head>
+<body onLoad="javascript:myLoad()">
+<div class="containerDiv">
+    <div id="cerebro" class="borderOuter">
+        <!-- header -->
+        <div id="header">
+		<!-- 
+			11_ == v1.11
+		    span id="logo" class=""> <img src="images/cerebro-wordmark-sm.png" alt="Cerebro Wordmark" width="120" height="20"> </span
+		-->
+		</div>
+        <div id="header" class="bgColor borderInner">
+            <div id="title" class=""> <span id="deckTitle" class="deckTitle">Greek
+                    Flashcards</span> </div>
+        </div>
+        <div id="chooseDeck" class="borderInner bgColor">
+            <form id="frmChooseDeck" name="frmChooseDeck" action="handlerCategory(document.frmChooseDeck)" class="frmCategory">
+                <label class="frmLabel">
+                <input name="category" type="radio" value="VOCAB" onClick="handlerCategory(document.frmChooseDeck)" class="checkbox" checked>
+                Vocabulary</label>
+                <label class="frmLabel">
+                <input name="category" type="radio" value="NOUN"   onClick="handlerCategory(document.frmChooseDeck)" class="checkbox">
+                Noun Declension</label>
+                <label class="frmLabel">
+                <input name="category" type="radio" value="VERB"   onClick="handlerCategory(document.frmChooseDeck)" class="checkbox">
+                Verb Conjugation</label>
+            </form>
+        </div>
+        <!-- card -->
+        <div id="card" class="borderInner">
+            <!--div id="side">
+            <div id="content" class="contentStyle">Side content here</div>
+            <div id="content2" class="contentStyle"></div>
+        </div -->
+            <!-- style="margin-left: auto; margin-right:auto; text-align:center;" -->
+            <div id="side" class="contentStyle">
+                <p> Center </p>
+                <p> Alt Div to Center Vertically and if more and more stuff goes
+                    here? </p>
+            </div>
+        </div>
+        <!-- cardId -->
+        <div id="cardId" class="borderInner bgColor">
+            <ul>
+                <li id="showSideName" class="first">Side</li>
+                <li id="showCategory">Noun</li>
+            </ul>
+        </div>
+        <!-- pageCount -->
+        <div id="pageCount">0 / 00</div>
+        <!-- footer -->
+        <div id="footer">
+            <div id="controls" class="">
+                <form id="frmControls" name="frmControls" action="">
+                    <input name="previous" type="button" value="Previous"    onclick="alert();handlerCardAction(this)" class="button">
+                    <input name="next"     type="button" value="Next"        onclick="handlerCardAction(this)" class="button">
+                    <input name="flip"     type="button" value="Turn Over"   onclick="handlerCardAction(this)" class="button">
+                    <input name="restart"  type="button" value="Start Over"  onclick="handlerCardAction(this)" class="button">
+                </form>
+            </div>
+            <div id="options" class="borderInner bgColor">
+                <form id="frmOptions" name="frmOptions" action="" class="frmSides">
+                    <label class="frmLabel">
+                    <input id="side2" name="side2" type="checkbox" onClick="handlerSides(this)">
+                    Show Side 2 First</label>
+                    <label class="frmLabel">
+                    <input id="bothSides" name="bothSides" type="checkbox" onClick="handlerSides(this)">
+                    Show Both Sides</label>
+                </form>
+            </div>
+        </div>
+    </div>
+    <p>&nbsp;</p>
+    <div id="notes" style="width:500px;">
+        <p>This page holds a test of Cerebro, a flashcard software product written
+            in JavaScript. Has not been tested on Macintosh (Safari and IE). </p>
+    </div>
+</div>
+</body>
+</html>

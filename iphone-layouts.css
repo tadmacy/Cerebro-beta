@@ -1,0 +1,29 @@
+/** iPhone/iPad screen sizes for testing layouts **/
+.iphone {
+    width: 320px;
+    height: 480px;
+}
+.iphone2x {
+    width: 640px;
+    height: 960px;
+}
+.iphone568h {
+    width: 640px;
+    height: 1136px;
+}
+.ipadLandscape {
+    width: 1024px;
+    height: 748px;
+}
+.ipadLandscape2x {
+    width: 2048px;
+    height: 1496px;
+}
+.ipadPortrait {
+    width: 768px;
+    height: 1004px;
+}
+.ipadPortrait2x {
+    width: 1536px;
+    height: 2008px;
+}

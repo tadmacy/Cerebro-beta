@@ -1,0 +1,414 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type"  content="text/html; charset=utf-8">
+<title>Cerebro Styling 1</title>
+<link href="../11_cerebro/styling-3.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/javascript" src="../11_cerebro/js/Flashcard.js"></script>
+<script language="JavaScript" type="text/javascript" src="../11_cerebro/js/Deck.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+var XMLData = "greek_words.xml";
+
+//	Default user options
+var side2First = false;
+var showBothSides = false;
+
+//************************************************************************
+// 		Changes below here are discouraged...                                 
+//************************************************************************
+
+
+//	For the Greek Flashcard Project, the matrix of cards holds the words,
+//	their meanings, and optionally, a third side with additonal meanings.
+//	
+//	In the case of Greek words, side 1 is the word, side 2 is
+//	the meaning in Greek, side 3 is the English equivalent.
+var cards = new Array();
+//var cardNumber = 0;
+var currentCard = 0;
+
+var NOUN = 0;
+var VERB = 1;
+var VOCAB = 2;
+
+var selectedCategory;
+var deckObj = Array();
+var currentDeck;
+var flip = false;
+
+//	DOM data: the DIV id's of the 'card' and display DIV for a 'side'.
+//	Note that innerHTML issues with DOM in IE (Internnet Explorer) force
+//	the use of 'card' as the parent of the 'side'. We remove and add side
+//	DIV's rather that use innerHTML. See here for more:
+//
+//		http://slayeroffice.com/articles/innerHTML_alternatives/#3a
+//
+var cardDivId = 'card';
+var cardElem;	//DOM element
+var cardSideDivId = "side";
+var cardSideElem;	// DOM element
+var cardSideContentDivId = "content";
+var cardSideContentElem;	// DOM element
+var cardSideContent2DivId = "content2";
+var cardSideContent2Elem;	// DOM element
+var cardIdCategoryDivId = "category"; 	// DOM element
+var cardIdCategoryElem; 	// DOM element
+var cardIdSideNameDivId = "sideName"; 	// DOM element
+var cardIdSideNameElem; 	// DOM element
+// DOM for the page counter
+var pageCountDivId = "pageCount";
+var pageCountElem;	// DOM element
+
+// This holds all of the cards in the deck (Flashcard objs)
+var cardObjs = Array();
+var DEBUG = 0;
+
+function myLoad() {
+	//	Set/reset options on page load.
+	document.frmOptions.side2.checked = side2First;
+	document.frmOptions.bothSides.checked = showBothSides;
+	selectedCategory = VOCAB;
+	var frmObj = document.frmChooseDeck;
+	for (i = 0; i < frmObj.category.length; i++) {
+		if (frmObj.category[i].value == "VOCAB") {
+			frmObj.category[i].checked = true;
+		} else {
+		    frmObj.category[i].checked = false;
+		}
+	}
+		
+	cardElem = document.getElementById(cardDivId);
+	cardSideElem = document.getElementById(cardSideDivId);
+	// side 1 content
+	cardSideContentElem = document.getElementById(cardSideContentDivId);
+	// side 2 content
+	cardSideContent2Elem = document.getElementById(cardSideContent2DivId);
+	// category display banner
+	cardIdCategoryElem = document.getElementById(cardIdCategoryDivId);
+	// category display side name
+	cardIdSideNameElem = document.getElementById(cardIdSideNameDivId);
+	
+	pageCountElem = document.getElementById(pageCountDivId);
+	var XMLDoc = importXML();
+	// Create decks by category from data
+	parseXML(xmlDoc);
+	
+	currentDeck = deckObj[selectedCategory];
+	//alert("load: len:"+deckObj[selectedCategory].getSize()+", "+currentDeck.getSize()+"; cat:"+selectedCategory+"; len cardObjs="+cardObjs.length);	
+	currentCard = currentDeck.getIndexCurrent();
+	displayCard();
+}
+
+
+/**************************************************************************/
+
+
+
+
+function displayCard() {
+	
+	var c = currentDeck.getCard(currentCard);
+		
+	var side1 = 0;
+	var side2 = 1;
+	if (selectedCategory == VOCAB && c.getNumberOfSides() == 3) {
+		side2 = 2;
+	}
+	
+	if (side2First) {
+		side1 = side2;
+		side2 = 0;
+	}
+	
+	if (flip) {
+		side1 = side2;
+		side2 = 0;
+	}
+	
+	side1Str = c.getContentById(side1);
+	fontSize1 = getFontSize(side1Str.length);
+	side2Str =  c.getContentById(side2)
+	fontSize2 = getFontSize(side2Str.length);
+	
+	//cardSideContentElem.innerHTML = '<p>' + side1Str + '</p>';
+	cardSideContentElem.innerHTML = side1Str;
+	//alert("s1="+side1Str.length+"; size="+fontSize1);
+	//cardSideElem.style.top = top;
+	cardSideContentElem.style.fontSize = fontSize1;
+	
+	cardSideContent2Elem.innerHTML = "";
+	//cardSideContent2Elem.innerHTML = '<hr />' + '<p>' + side2Str + '</p>';
+	cardSideContent2Elem.innerHTML = side2Str;
+	cardSideContent2Elem.style.fontSize = fontSize2;
+	cardSideContent2Elem.style.display = ((showBothSides) ? "inline" : "none" );
+	
+	var txt = "Side " + ((side1 == 0) ? 1 : 2);
+	if (showBothSides) {
+		txt = "Both Sides";
+	}
+	cardIdCategoryElem.innerHTML = txt;
+	
+	txt = "Noun";
+	if (selectedCategory == VOCAB) {
+		txt = "Vocabulary";
+	} else if (selectedCategory == VERB) {
+		txt = "Verb";
+	}
+	cardIdSideNameElem.innerHTML = txt;
+	
+	var pg = '(' + eval(currentCard+1) + ' of ' + currentDeck.getSize() +')';
+	// for debugging size
+	pg += "s1="+side1Str.length+"; size="+fontSize1;
+	pageCountElem.innerHTML = pg;
+	return;
+
+}
+
+
+function getFontSize(len) {
+	//var top = "30%";	// default from CSS
+	var size = 500; 	// default from CSS
+	if (len > 80) {
+		//top = "5%";
+		size = 1.2;
+	} else if (len > 65) {
+		alert("more than 60");
+		//top = "5%";
+		//size = "80%";
+	} else if (len > 20) {
+		alert("more than 25");
+		//top = "18%";
+		//size = "220%";
+		if (showBothSides) {
+			//top = "10%";
+			//size = "220%";
+		}
+		size = 350;
+	} else if (len > 11) {
+		//alert("more than 10 (240%)");
+		//top = "25%";
+		if  (showBothSides) {
+			//top="10%";
+		}
+		size = 450;
+	}
+	
+	return(size + "%");
+}
+
+function handlerCardAction(thisbtn) {
+	//	Handle users request:
+	//	Changed to button value when "<button...>" caused issues with IE.
+	//		-2 - Restart
+	//		-1 - Previous
+	//		 0 - Flip Card
+	//		 1 - Next card
+	 
+	with (thisbtn) {
+		switch(name) {
+			case "restart":
+				flip = 0;
+				currentCard = currentDeck.setIndexTo(0)
+				break;
+			case "previous":
+				flip = 0;
+				currentCard = currentDeck.getIndexPrevious();
+				break;
+			case "flip":
+				flip = (flip) ? 0 : 1;
+				break;
+			case "next":
+				flip = 0;
+				currentCard = currentDeck.getIndexNext();
+				break;
+		}
+		displayCard();
+	}
+}
+
+
+function handlerCategory(frmObj) {
+
+	for (i = 0; i < frmObj.category.length; i++) {
+		//alert("radio value: "+document.frmOptions.category[i].value);
+		if (frmObj.category[i].checked) {
+			//alert("user choose:"+frmObj.category[i].value);
+			switch (frmObj.category[i].value)  {
+				case "NOUN":
+					selectedCategory = NOUN;
+					break;
+				case "VOCAB":
+					selectedCategory = VOCAB;
+					break;
+				case "VERB":
+					selectedCategory = VERB;
+					break;
+			}
+		}
+	}
+	
+	currentDeck = deckObj[selectedCategory];
+	currentCard = currentDeck.getIndexCurrent();
+	displayCard();
+}
+
+function handlerSides(obj) {
+	//  All decks have only two sides. Choose which side is first
+	//	or to see both sides at once.
+	with (obj) {
+		switch (name) {
+			case "side2":
+				side2First = (side2First) ? false : true;
+				break;
+			case "bothSides":
+				showBothSides = (showBothSides) ? false : true;
+				break;
+		}
+	}
+	displayCard();
+}
+
+
+function importXML() {
+	var XMLDoc;
+	if (document.implementation && document.implementation.createDocument) {
+		xmlDoc = document.implementation.createDocument("", "", null);
+	} else if (window.ActiveXObject) {
+		xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+ 	} else {
+		alert('Your browser can\'t handle this script');
+		return;
+	}
+	xmlDoc.async = false;
+	xmlDoc.load("greek_words.xml");
+	return(XMLDoc);
+}
+
+
+function parseXML(XMLdoc) {
+
+	// Gloabl deckObj stores all decks.
+	deckObj[VOCAB] = new Deck(VOCAB);
+	deckObj[NOUN]  = new Deck(NOUN);
+	deckObj[VERB]  = new Deck(VERB);
+	
+	var cardsElem = xmlDoc.documentElement.getElementsByTagName("card");
+	var card = "";
+	//alert("el len:"+cardsElem.length);
+	for (var i = 0; i < cardsElem.length; i++) {
+		cardObjs[i] = new Flashcard(cardsElem[i]);
+		card = cardObjs[i];
+		deckObj[VOCAB].addCard(card);
+		if (card.getCategory() == NOUN) {
+			deckObj[NOUN].addCard(card);
+		} else if (card.getCategory() == VERB) {
+			deckObj[VERB].addCard(card);
+		}
+	}
+	//alert("Size (VOCAB): " + deckObj[VOCAB].cards.length);
+/*	if (DEBUG == 1) {
+		card = deckObj[VOCAB].getCard(7);
+		alert("sanity check: " + card.getContentById(0));
+		alert("sanity check: " + card.getContentById(1));
+		alert("sanity check: " + card.getContentById(2));
+		//alert("end");
+		exit;
+	}*/
+}
+
+function removeElement(divNum) {
+	var d = document.getElementById('myDiv');
+	var olddiv = document.getElementById(divNum);
+	d.removeChild(olddiv);
+}
+
+
+function so_clearInnerHTML(obj) {
+    // from http://slayeroffice.com/articles/innerHTML_alternatives/#3a
+	// perform a shallow clone on obj
+	nObj = obj.cloneNode(false);
+	// insert the cloned object into the DOM before the original one
+	obj.parentNode.insertBefore(nObj,obj);
+	// remove the original object
+	obj.parentNode.removeChild(obj);
+}
+// ]]>
+</script>
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+-->
+</style></head>
+<body onload="myLoad()">
+<p>Tests of Cerebro</p>
+OK in Firefox - not IE
+<p>&#7936;&#947;&#8051;&#955;&#969;</p>&#913;&#914;&#945;</p>
+<p>good: &#7936;&#947;&#945;&#952;&#8057;&#962; -&#8053; - &#8057;&#957;</p>
+<p><font face="">&#936;&#947;&#8051;&#955;&#969;</font></p>
+<p>ἄνδρα, ἄνδρα</p>
+<div id="cerebro" class="borderOuter">
+    <!-- header -->
+    <div id="header"> <span id="logo" class=""> <img src="../11_cerebro/images/cerebro-wordmark-sm.png" alt="Cerebro Wordmark" width="120" height="20"> </span> </div>
+    <div id="header" class="bgColor borderInner">
+        <div id="title" class=""> <span id="deckTitle" class="deckTitle">Greek Flashcards</span> </div>
+    </div>
+    <div id="chooseDeck" class="borderInner bgColor">
+        <form name="frmChooseDeck" >
+            <label class="frmLabel">
+            <input name="category" type="radio" value="VOCAB" onChange="handlerCategory(document.frmChooseDeck)" class="checkbox">
+            Vocabulary</label>
+            <label class="frmLabel">
+            <input name="category" type="radio" value="NOUN"   onchange="handlerCategory(document.frmChooseDeck)" class="checkbox">
+            Noun Declension</label>
+            <label class="frmLabel">
+            <input name="category" type="radio" value="VERB"   onchange="handlerCategory(document.frmChooseDeck)" class="checkbox">
+            Verb Conjugation</label>
+        </form>
+    </div>
+    <!-- card -->
+    <div id="card" class="borderInner">
+        <table id="side">
+			<tr style="heigth:300px;"><td id="content" class="contentStyle2" style="display:inline;"></td></tr>
+			<!-- tr><td id="content2" class="contentStyle2" style="display:none border-top: red 1px solid;"></td></tr -->
+		</table>
+    </div>
+    <!-- cardId -->
+    <div id="cardId" class="borderInner bgColor">
+        <ul>
+            <li id="sideName" class="first">Noun</li>
+            <li id="category">Side A</li>
+        </ul>
+    </div>
+    <!-- pageCount -->
+    <div id="pageCount">0&frasl;00</div>
+    <!-- footer -->
+    <div id="footer">
+        <div id="controls" class="">
+            <form name="frmControls">
+                <input name="previous" type="button" value="Previous"    onclick="handlerCardAction(this)" class="button">
+                <input name="next"     type="button" value="Next"        onclick="handlerCardAction(this)" class="button">
+                <input name="flip"     type="button" value="Turn Over"   onclick="handlerCardAction(this)" class="button">
+                <input name="restart"  type="button" value="Start Over"  onclick="handlerCardAction(this)" class="button">
+            </form>
+        </div>
+        <div id="options" class="borderInner bgColor">
+            <form name="frmOptions" class="frmStyle">
+                <div id="frmChooseSides" class="frmSides">
+                    <label class="frmLabel">
+                    <input id="side2" name="side2" type="checkbox" onClick="handlerSides(this)" unchecked="unchecked">
+                    Show Side 2 First</label>
+                    <label class="frmLabel">
+                    <input id="bothSides" name="bothSides" type="checkbox" onClick="handlerSides(this)" unchecked="unchecked">
+                    Show Both Sides</label>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<p>&nbsp;</p>
+</body>
+</html>

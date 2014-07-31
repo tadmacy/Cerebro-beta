@@ -1,0 +1,271 @@
+/* CSS Document */
+
+/*  #container  { min-height:500px; } * html #container { height:500px; } */
+  
+#cerebro {
+	position:relative;
+	width: 500px;
+	height: auto;
+	padding-bottom:2px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333333;
+	background-color: #FFFFFF;
+	overflow:hidden;
+}
+
+#cerebro #header, #cerebro #chooseDeck, #cerebro #card, #cerbro #pageCount, #cerebro #footer, #cerebro #cardId {
+	position:relative;
+	width:98%;
+	height:auto;
+	padding:0px;
+	margin: 5px 5px 0px 5px;
+}
+	
+#cerebro #header {
+	text-align: left;
+	width: 98%;
+}
+#cerebro #header #logo {
+	padding-left: 6px;
+}
+
+#cerebro #header .deckTitle {
+	padding: 4px 0 4px 0;
+	margin: 5px 0 0 5px;
+	line-height: 2em;
+}
+
+#cerebro #chooseDeck {
+	padding: 4px 0 4px 0;
+}
+
+/** the following looks weird but it works!
+#cerebro #card { display: table; height: 300px; position: relative; overflow: hidden; align: center; }
+#cerebro #card #side { position: absolute; top: 40%;display: table-cell; vertical-align: middle; }
+#cerebro #card #side #content { position: relative; top: -40%; }
+#cerebro #card #side #content { width: 100%; text-align:center; }
+#cerebro #card #side #content { /*height: 100%;* /  }
+#cerebro #card #side #content2 { position: relative; clear: both; width: 100%; height:auto; } **/
+/**trying again **/
+#cerebro #card  {
+	position: relative;
+	height: 300px;
+	width: 98%;
+	/*overflow: hidden;
+	overflow: scroll;*/
+	background-color:#CCCCCC;
+	text-align:center;
+}
+/*#cerebro #card #side { position: absolute; top: 50%; left: 0%; width: 100%; background-color:#CCCCCC; display: table-cell; vertical-align: middle; text-align: left; }*/
+#cerebro #card #side {
+	position: relative; table-layout:auto; width: 100%; height: 100%; border:green 2px solid;
+}
+
+
+/* #cerebro #card #side #content { position: relative; top: -50%; background-color:#6699FF; } */
+
+#cerebro #card #side #xxcontent, #cerebro #card #side #xxcontent2 {
+	position: relative;
+	background-color: #fff; /*#6699FF;*/
+	width: 100%;
+	height: auto;
+	display:table-cell;
+}
+
+#cerebro #card #side #content2 {
+	background-color: #B6D0AA;
+}
+
+#cerebro hr {
+	padding: 0;
+	margin: 0;
+	color: red;
+}
+
+#cerebro #card #sidex #content  { width: 100%; text-align:center; }
+#cerebro #card #sidex #content  { /*height: 100%;*/  }
+
+
+#xxcerebro #card { display: block; width: 90%; background-color:#6699FF; text-align:center; }
+
+#cerebro #card #side .contentStyle {
+	text-align:center; 
+	font-size: 400%;
+	color: black; 
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	/*font-family:'arial unicode ms',helvetica,sans-serif; */
+	margin: 20% 0 ;
+}
+#cerebro #card #side .contentStyle2 {
+	text-align:center; 
+	font-size: 400%;
+	color: black; 
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	vertical-align:middle;
+	width: 100%;
+	height:100%;
+	/*font-family:'arial unicode ms',helvetica,sans-serif;
+	margin: 20% 0 ; */
+}
+
+#xx #cerebro #card #side #content p {
+	margin: 5px 8px 0px 8px;
+	margin: 0;
+	padding: 0;
+}
+
+
+#cerebro #cardId {
+	position:relative;
+	text-align:center;
+	font-size: 80%;
+}
+	
+#cerebro #cardId ul {
+	margin-left: 0;
+	padding-left: 0;
+	display: inline;
+}
+	 
+#cerebro #cardId ul li {
+	margin-left: 0;
+	padding: 0px 0px 0px 18px;
+	border-left: 1px dotted #000;
+	list-style: none;
+	display: inline;
+}
+		
+#cerebro #cardId ul li.first {
+	margin-left: 0;
+	border-left: none;
+	list-style: none;
+	display: inline;
+	padding: 0px 18px 0px 0px;
+}
+
+
+#cerebro #pageCount {
+	position: relative;
+	clear:both;
+	font-weight: bold;
+	/*text-align: left;*/
+	text-align:center;
+	margin: 2px 10px 2px 10px;
+	font-size: 70%;
+}
+
+#cerebro #footer {
+	padding: 4px 0px 4px 0px;
+}
+#cerebro .frmLabel {
+	font-weight: bold;
+/*	font-family:'trebuchet ms',helvetica,sans-serif;*/
+	font-size:86%;
+}
+
+#cerebro #footer #controls {
+	margin: 10px 0;
+}
+
+/**	Class Styles **/
+
+#cerebro #header .deckTitle {
+	color:#003366;
+	font-weight: bold;
+	font-size: 160%;
+}
+
+.fontDark {
+	color:#003366;
+}
+
+.borderOuter {
+	border-color: #666666;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.borderInner {
+	border-color: #666666;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.borderBot {
+	border-bottom-color: #666666;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.borderTop {
+	border-top-color: #666666;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+.frmCategory, .frmSides{
+	line-height: 2.0em;
+}
+
+.bgBlue {
+	background-color:#0066FF;
+}
+
+.bgColor1 {
+	/*background-color:#CC9900;*/
+	background-color:#CCFF66;
+}
+
+.bgColor {
+	/*background-color:#CC9900;*/
+	background-color:#EBFEAB;
+}
+
+input.button {
+	color:#000000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:84%;
+	font-weight:bold;
+	margin: 0px 8px 0px 8px;
+	width: 86px;
+/*	background-color:#CC9900;
+	border-color: #333333;
+	border-style: ridge;
+	border-width: 3px;*/
+} 
+
+input.xxbutton,input.btn {
+	color:#FFFFFF;
+	font-family:'trebuchet ms',helvetica,sans-serif;
+	font-size:86%;
+	font-weight:bold;
+	/*background-color: #0066FF;*/
+	border-top-color:#0066FF;
+	border-left-color:#0099FF;
+	border-right-color:#003366;
+	border-bottom-color:#003366;
+	margin: 0px 8px 0px 8px;
+	border-style: solid;
+	border-width: 2px;
+	width: 80px;
+/*	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#ffffffff',EndColorStr='#ffeeddaa');*/
+	background-color:#99CC00; /*  #CCFF66; */
+}
+
+/*
+input.checkbox {
+	font-family:'trebuchet ms',helvetica,sans-serif;
+	font-size:86%;
+	font-weight:bold;
+}*/
+	
+input.xxbuttonHover,input.btnhov{
+	border-top-color:#c63;
+	border-left-color:#c63;
+	border-right-color:#930;
+	border-bottom-color:#930;
+}   
+   

@@ -1,0 +1,3543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cards SYSTEM "greek_words.dtd">
+<cards>
+<!--   <card>
+    <side><![CDATA[0123456 789 0123456 789]]></side>
+    <side><![CDATA[0123456 789012345 6789 2345 678]]></side>
+    <side><![CDATA[side 3]]></side>
+  </card>
+  <card>
+    <side><![CDATA[0123456 789 0123456 78901234 56 789 0123456 789]]></side>
+    <side><![CDATA[012 3456789012 3456789]]></side>
+    <side><![CDATA[to side 3]]></side>
+  </card>-->
+  <card>
+    <side><![CDATA[ἀγαθός -ή - όν]]></side>
+    <side><![CDATA[good]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀγγέλω]]></side>
+    <side><![CDATA[ἀγγελῶ, ἤγγειλα, ἤγγελκα, ἤγγελμαι, ἠγγέλθην]]></side>
+    <side><![CDATA[to announce, tell]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἄγγελος]]></side>
+    <side><![CDATA[ἀγγέλου, ὁ]]></side>
+    <side><![CDATA[messenger]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀγορἀ]]></side>
+    <side><![CDATA[ἀγορᾶς, ἡ]]></side>
+    <side><![CDATA[marketplace, citycenter]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀγνοέω]]></side>
+    <side><![CDATA[ἀγνοήσω, ἠγνόησα, ἠγνόηκα, ἠγνόημαι, ἠγνοήθην]]></side>
+    <side><![CDATA[to not know, be unaware]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἄγω]]></side>
+    <side><![CDATA[ἄξω, ἤγαγον, ἦχα, ἦγμαι, ἦχθην]]></side>
+    <side><![CDATA[to lead, drive, do]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀγών]]></side>
+    <side><![CDATA[ἀγῶνος, ὁ]]></side>
+    <side><![CDATA[struggle, contest, game]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀδελφός]]></side>
+    <side><![CDATA[ἀδελφοῦ, ὁ]]></side>
+    <side><![CDATA[brother]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀδικέω]]></side>
+    <side><![CDATA[ἀδικήσω, ἠδίκησα, ἠδίκηκα, ἠδίκημαι, ἠδικήθην]]></side>
+    <side><![CDATA[to do wrong, be just]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἄδικος -η -ον]]></side>
+    <side><![CDATA[unjust]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀδύνατος -ον]]></side>
+    <side><![CDATA[impossible, incapable]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀεί/αἰεί]]></side>
+    <side><![CDATA[always]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀθάνατος -ον]]></side>
+    <side><![CDATA[immortal]]></side>
+  </card>
+  <card>
+    <side><![CDATA[᾽Αθήναζε]]></side>
+    <side><![CDATA[to Athens]]></side>
+  </card>
+  <card>
+    <side><![CDATA[᾽Αθῆναι]]></side>
+    <side><![CDATA[᾽Αθηνῶν, αἱ]]></side>
+    <side><![CDATA[Athens]]></side>
+  </card>
+  <card>
+    <side><![CDATA[᾽Αθήνασι]]></side>
+    <side><![CDATA[at Athens]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐν ταῖς ᾽Αθήναις]]></side>
+    <side><![CDATA[in Athens]]></side>
+  </card>
+  <card>
+    <side><![CDATA[᾽Αθηνᾶ]]></side>
+    <side><![CDATA[᾽Αθηνᾶς, ἡ]]></side>
+    <side><![CDATA[Athena]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀθυμία]]></side>
+    <side><![CDATA[ἀθυμίας, ἡ]]></side>
+    <side><![CDATA[despair, lack of spirit]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἄθυμος -ον]]></side>
+    <side><![CDATA[disheartened]]></side>
+  </card>
+  <card>
+    <side><![CDATA[αἱρέω]]></side>
+    <side><![CDATA[αἱρήσω, εἷλον, ᾕρηκα, ᾕρημαι, ᾑρέθην]]></side>
+    <side><![CDATA[(act) seize; (mid) choose]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀδικία]]></side>
+    <side><![CDATA[ἀδικίας, ἡ]]></side>
+    <side><![CDATA[injustice]]></side>
+  </card>
+  <card>
+    <side><![CDATA[αἰσθάνομαι]]></side>
+    <side><![CDATA[αἰσθήσομαι, ᾐσθόμην, ᾔσθημαι]]></side>
+    <side><![CDATA[to perceive, feel]]></side>
+  </card>
+  <card>
+    <side><![CDATA[αἰσχρός -α -ον]]></side>
+    <side><![CDATA[shameful]]></side>
+  </card>
+  <card>
+    <side><![CDATA[αἰσχύνη]]></side>
+    <side><![CDATA[αἰσχύνης, ἡ]]></side>
+    <side><![CDATA[shame, dishonor]]></side>
+  </card>
+  <card>
+    <side><![CDATA[αἰτέω]]></side>
+    <side><![CDATA[αἰτήσω, ᾔτησα, ᾔτηκα, ᾔτημαι, ᾐτήθην]]></side>
+    <side><![CDATA[to ask for, demand]]></side>
+  </card>
+  <card>
+    <side><![CDATA[αἰτία]]></side>
+    <side><![CDATA[αἰτίας, ἡ]]></side>
+    <side><![CDATA[cause, reason, blame, responsibility]]></side>
+  </card>
+  <card>
+    <side><![CDATA[αἴτιος -α -ον]]></side>
+    <side><![CDATA[responsible for, to blame for]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀκούω]]></side>
+    <side><![CDATA[ἀκούσομαι, ἤκουσα, ἀκήκοα, ἤκουσμαι, ἠκούσθην]]></side>
+    <side><![CDATA[to hear, listen to]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀκρόπολις]]></side>
+    <side><![CDATA[ἀκροπόλεως, ἡ]]></side>
+    <side><![CDATA[citadel, uppercity, Acropolis]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἄκρος -α -ον]]></side>
+    <side><![CDATA[top most, high]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀλήθεια]]></side>
+    <side><![CDATA[ἀληθείας, ἡ]]></side>
+    <side><![CDATA[truth]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀληθής -ές]]></side>
+    <side><![CDATA[1]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀλλά]]></side>
+    <side><![CDATA[but]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀλλήλους -ας -α]]></side>
+    <side><![CDATA[each other]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἄλλοθεν]]></side>
+    <side><![CDATA[from elsewhere]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἄλλοθι]]></side>
+    <side><![CDATA[elsewhere]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἄλλος -η -ον]]></side>
+    <side><![CDATA[other, another, the rest]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἄλλοσε]]></side>
+    <side><![CDATA[to elsewhere]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἄλλοτε]]></side>
+    <side><![CDATA[at another time]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἅμα]]></side>
+    <side><![CDATA[at the same time]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἁμαρτάνω]]></side>
+    <side><![CDATA[ἁμαρτήσομαι, ἥμαρτον, ἡμάρτηκα, ἡμάρτημαι, ἡμαρτήθην]]></side>
+    <side><![CDATA[to miss, make a mistake, sin]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀμφί]]></side>
+    <side><![CDATA[(gen) about; (dat) around; (acc) around]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀμφότερος -α -ον]]></side>
+    <side><![CDATA[both]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἄν]]></side>
+    <side><![CDATA[modal particle]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀνά]]></side>
+    <side><![CDATA[(acc) up; (through) through out]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀναβαίνω]]></side>
+    <side><![CDATA[ἀναβήσομαι, ἀνέβην, ἀναβέβηκα]]></side>
+    <side><![CDATA[to go up]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀναγιγνώσκω]]></side>
+    <side><![CDATA[ἀναγνώσομαι, ἀνέγνων, ἀνέγνωκα, ἀνέγνωσμαι, ἀνεγνώσθην]]></side>
+    <side><![CDATA[to read]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀνάγκη ]]></side>
+    <side><![CDATA[ἀνάγκης, ἡ]]></side>
+    <side><![CDATA[force, constraint, necessity]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀναιρέω]]></side>
+    <side><![CDATA[ἀναιρήσω, ἀνεῖλον, ἀνῄρηκα, ἀνῄρεμαι, ἀνῃρέθην]]></side>
+    <side><![CDATA[to destroy; (mid) take up, pick up, choose]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀνδρεῖος -α -ον]]></side>
+    <side><![CDATA[manly, brave]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἄνεμος]]></side>
+    <side><![CDATA[ανέμου, ὁ]]></side>
+    <side><![CDATA[wind]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἄνευ]]></side>
+    <side><![CDATA[(gen) without]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀνήρ]]></side>
+    <side><![CDATA[ἀνδρός, ὁ]]></side>
+    <side><![CDATA[man, husband]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἄνθρωπος]]></side>
+    <side><![CDATA[ἀνθρώπου, ὁ, ἡ]]></side>
+    <side><![CDATA[man, woman, human being, (pl.) people]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀντί]]></side>
+    <side><![CDATA[(gen) instead of, in place of, ahead of, in return for]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἄνω]]></side>
+    <side><![CDATA[above, up]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἄξιος -α -ον]]></side>
+    <side><![CDATA[worthy of]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀπάγω]]></side>
+    <side><![CDATA[ἀπάξω, ἀπήγαγον, ἀπῆχα, ἀπῆγμαι, ἀπήχθην]]></side>
+    <side><![CDATA[to lead away]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἄπειμι]]></side>
+    <side><![CDATA[ἀπέσομαι, ἀπῆν]]></side>
+    <side><![CDATA[to be away, be absent]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἄπειμι]]></side>
+    <side><![CDATA[to go away]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀπέρχομαι]]></side>
+    <side><![CDATA[ἀπελεύσομαι, ἀπῆλθον (ἀπήλυθον), ἀπελήλυθα]]></side>
+    <side><![CDATA[to go away, come away]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀπό]]></side>
+    <side><![CDATA[(gen) away from]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀποβαίνω]]></side>
+    <side><![CDATA[ἀποβήσομαι, ἀπέβην, ἀποβέβηκα]]></side>
+    <side><![CDATA[to go away]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀποβάλλω]]></side>
+    <side><![CDATA[ἀποβαλῶ, ἀπέβαλον, ἀποβέβληκα, ἀποβέβλημαι, ἀπεβλήθην]]></side>
+    <side><![CDATA[to throw away]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀποδίδωμι]]></side>
+    <side><![CDATA[ἀποδώσω, ἀπέδωκα, ἀποδέδωκα, ἀποδέδομαι, ἀπεδόθην]]></side>
+    <side><![CDATA[to give back, return, pay, sell]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀποθνήσκω]]></side>
+    <side><![CDATA[ἀποθανοῦμαι, ἀπέθανον, ἀποτέθνηκα]]></side>
+    <side><![CDATA[to die, be put to death]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀποκρίνω]]></side>
+    <side><![CDATA[ἀποκρινῶ, ἀπέκρινα, ἀποκέκρινα, ἀποκέκριμαι, ἀποκρίνθην]]></side>
+    <side><![CDATA[(act) to separate; (mid) reply]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀποκτείνω]]></side>
+    <side><![CDATA[ἀποκτενῶ, ἀπέκτεινα (ἀπέκτανον), ἀπέκτονα]]></side>
+    <side><![CDATA[to kill]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀπόλλυμι]]></side>
+    <side><![CDATA[ἀπολῶ, ἀπώλεσα, ἀπολώλεκα, ἀπόλωλα, ἀπωλόμην]]></side>
+    <side><![CDATA[to destroy]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀποπλέω]]></side>
+    <side><![CDATA[ἀποπλεύσομαι, ἀπέπλευσα,  ἀποπέπλευκα, ἀποπέπλευσμαι, ἀπεπλεύσθην]]></side>
+    <side><![CDATA[to sail away]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀπορέω]]></side>
+    <side><![CDATA[ἀπορήσω, ἠπόρησα, ἠπόρηκα]]></side>
+    <side><![CDATA[to be needful of, to be at a loss, to lack]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἆρα]]></side>
+    <side><![CDATA[introduces a question]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἄργυρος]]></side>
+    <side><![CDATA[ἀργύρου, ὁ]]></side>
+    <side><![CDATA[silver]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀργυροῦς -ᾶ -οῦν]]></side>
+    <side><![CDATA[made of silver]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀρέσκω]]></side>
+    <side><![CDATA[ἀρέσω, ἤρεσα, ἠρέσθην]]></side>
+    <side><![CDATA[to make good, make amends]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀρετή]]></side>
+    <side><![CDATA[ἀρετῆς, ἡ]]></side>
+    <side><![CDATA[honor, virtue, excellence]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀριθμός]]></side>
+    <side><![CDATA[ἀριθμοῦ, ὁ]]></side>
+    <side><![CDATA[number]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀριστερός -ά -όν]]></side>
+    <side><![CDATA[left (hand)]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἁρπάζω]]></side>
+    <side><![CDATA[ἀρπάσω, ἥρπασα, ἥρπακα, ἥρπασμαι, ἡρπάσθην]]></side>
+    <side><![CDATA[to snatch away]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀρχαῖος -α -ον]]></side>
+    <side><![CDATA[old, ancient]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀρχή ]]></side>
+    <side><![CDATA[ἀρχῆς, ἡ]]></side>
+    <side><![CDATA[rule, beginning, office]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἄρχω]]></side>
+    <side><![CDATA[ἄρξω, ἦρξα, ἦρχα, ἦργμαι, ἤρχθην]]></side>
+    <side><![CDATA[to rule, begin]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀσθενής -ές]]></side>
+    <side><![CDATA[weak]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἄσμενος -η -ον]]></side>
+    <side><![CDATA[glad]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀσπίς]]></side>
+    <side><![CDATA[ἀσπίδος, ἡ]]></side>
+    <side><![CDATA[shield]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἄστυ]]></side>
+    <side><![CDATA[ἄστεως, τό]]></side>
+    <side><![CDATA[city]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀσφαλής -ές]]></side>
+    <side><![CDATA[safe, secure]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀτιμάω]]></side>
+    <side><![CDATA[ἀτιμήσω, ἠτίμησα, ἠτίμηκα, ἠτίμημαι, ἠτιμήθην]]></side>
+    <side><![CDATA[to dishonor]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀτιμάζω]]></side>
+    <side><![CDATA[ἀτιμάσω, ἠτίμασα, ἠτίμακα, ἠτίμαμαι, ἠτιμάθην]]></side>
+    <side><![CDATA[to dishonor]]></side>
+  </card>
+  <card>
+    <side><![CDATA[αὖθις]]></side>
+    <side><![CDATA[again]]></side>
+  </card>
+  <card>
+    <side><![CDATA[αὖ]]></side>
+    <side><![CDATA[again]]></side>
+  </card>
+  <card>
+    <side><![CDATA[αὐξάνω]]></side>
+    <side><![CDATA[αὐξήσω, ηὔξησα, ηὔξηκα, ηὔξημαι, ηὐξήθην]]></side>
+    <side><![CDATA[to increase, grow]]></side>
+  </card>
+  <card>
+    <side><![CDATA[αὔριον]]></side>
+    <side><![CDATA[tomorrow]]></side>
+  </card>
+  <card>
+    <side><![CDATA[αὐτίκα]]></side>
+    <side><![CDATA[at once, straightaway]]></side>
+  </card>
+  <card>
+    <side><![CDATA[αὐτός -ή -όν]]></side>
+    <side><![CDATA[himself, herself, itself; the same; reflex. pronoun]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀφίημι]]></side>
+    <side><![CDATA[ἀφήσω, ἀφῆκα, ἀφεῖκα, ἀφείμαι, ἀφεῖμαι, ἀφείθην]]></side>
+    <side><![CDATA[to send forth, discharge, let loose, release]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀφικνέομαι]]></side>
+    <side><![CDATA[ἀφίξομαι, ἀφικόμην, ἀφῖγμαι]]></side>
+    <side><![CDATA[to come, arrive, reach]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἀφίστημι]]></side>
+    <side><![CDATA[ἀποστήσω, ἀπέστησα (ἀπέστην), ἀφέστηκα, ἀπεστάθην]]></side>
+    <side><![CDATA[to cause to revolt, stand away from]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βάθος]]></side>
+    <side><![CDATA[βάθους, τό]]></side>
+    <side><![CDATA[depth]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βαθύς -εῖα -ύ]]></side>
+    <side><![CDATA[deep]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βαίνω]]></side>
+    <side><![CDATA[βήσομαι, ἔβην, βέβηκα, βέβαμαι]]></side>
+    <side><![CDATA[to go, come, walk]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βάλλω]]></side>
+    <side><![CDATA[βαλῶ, ἔβαλον, βέβληκα, βέβλημαι, ἐβλήθην]]></side>
+    <side><![CDATA[to throw]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βάρβαρος -α -ον]]></side>
+    <side><![CDATA[foreigner]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βάρος]]></side>
+    <side><![CDATA[βάρους, τό]]></side>
+    <side><![CDATA[weight]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βαρύς -εῖα -ύ]]></side>
+    <side><![CDATA[heavy]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βασίλεια]]></side>
+    <side><![CDATA[βασιλείας, ἡ]]></side>
+    <side><![CDATA[queen]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βασίλεια]]></side>
+    <side><![CDATA[βασιλείων, τά]]></side>
+    <side><![CDATA[palace]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βασιλεία]]></side>
+    <side><![CDATA[βασιλείας, ἡ]]></side>
+    <side><![CDATA[kingdom]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βασιλεύς]]></side>
+    <side><![CDATA[βασιλέως, ὁ]]></side>
+    <side><![CDATA[king]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βασιλεύω]]></side>
+    <side><![CDATA[βασιλεύσω, ἐβασίλευσα, βεβασίλευκα, βεβασίλευμαι, ἐβασιλεύθην]]></side>
+    <side><![CDATA[to rule]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βέβαιος -α -ον]]></side>
+    <side><![CDATA[sure, certain, firm]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βία]]></side>
+    <side><![CDATA[βίας, ἡ]]></side>
+    <side><![CDATA[force, violence]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βίβλος]]></side>
+    <side><![CDATA[βίβλου, ὁ]]></side>
+    <side><![CDATA[book]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βιβλίον]]></side>
+    <side><![CDATA[βιβλίου, τό]]></side>
+    <side><![CDATA[book]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βίος]]></side>
+    <side><![CDATA[βίου, ὁ]]></side>
+    <side><![CDATA[life]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βλάπτω]]></side>
+    <side><![CDATA[βλάξψω, ἔβλαψα, βέβλαφα, βέβλαμμαι, ἐβλάφθην]]></side>
+    <side><![CDATA[to harm]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βλέπω]]></side>
+    <side><![CDATA[βλέψομαι, ἔβλεψα, βέβλεφα, βέβλεμμαι, ἐβλέφθην]]></side>
+    <side><![CDATA[to look at]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βοάω]]></side>
+    <side><![CDATA[βοήσομαι, ἐβόησα, βεβόηκα, βεβόημαι, ἐβώσθην]]></side>
+    <side><![CDATA[to shout, cry out]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βοή]]></side>
+    <side><![CDATA[βοῆς, ἡ]]></side>
+    <side><![CDATA[shout, cry]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βοήθεια]]></side>
+    <side><![CDATA[βοηθείας, ἡ]]></side>
+    <side><![CDATA[help, aid]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βοηθέω]]></side>
+    <side><![CDATA[βοηθήσω, ἐβοήθησα, βεβοήθηκα, βεβοήθημαι, ἐβοηθήθην]]></side>
+    <side><![CDATA[to help, aid]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βουλή]]></side>
+    <side><![CDATA[βουλῆς, ἡ]]></side>
+    <side><![CDATA[council, plan, advice]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βουλεύω]]></side>
+    <side><![CDATA[βουλεύσω, ἐβούλευσα, βεβούλευκα, βεβούλευμαι, ἐβουλεύθην]]></side>
+    <side><![CDATA[to deliberate, plan]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βούλομαι]]></side>
+    <side><![CDATA[βουλήσομαι, βεβούλημαι, ἐβουλήθην]]></side>
+    <side><![CDATA[to wish, want]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βοῦς]]></side>
+    <side><![CDATA[βοός, ὁ, ἡ]]></side>
+    <side><![CDATA[cow, ox]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βραδύς -εῖα -ύ]]></side>
+    <side><![CDATA[slow]]></side>
+  </card>
+  <card>
+    <side><![CDATA[βραχύς -εῖα -ύ]]></side>
+    <side><![CDATA[short]]></side>
+  </card>
+  <card>
+    <side><![CDATA[γαμέω]]></side>
+    <side><![CDATA[γαμῶ ἔγημα γεγάμηκα γεγάμημαι ἐγαμήθην]]></side>
+    <side><![CDATA[to marry]]></side>
+  </card>
+  <card>
+    <side><![CDATA[γάμος]]></side>
+    <side><![CDATA[γάμου, ὁ]]></side>
+    <side><![CDATA[marriage, wedding]]></side>
+  </card>
+  <card>
+    <side><![CDATA[γάρ]]></side>
+    <side><![CDATA[for, because]]></side>
+  </card>
+  <card>
+    <side><![CDATA[γε]]></side>
+    <side><![CDATA[at least, at any rate]]></side>
+  </card>
+  <card>
+    <side><![CDATA[γελάω]]></side>
+    <side><![CDATA[γελάσομαι, ἐγάλασα, γεγάλακα, γεγάλαμαι, ἐγαλάσθην]]></side>
+    <side><![CDATA[to laugh]]></side>
+  </card>
+  <card>
+    <side><![CDATA[γένος]]></side>
+    <side><![CDATA[γένους, τό]]></side>
+    <side><![CDATA[race, kind]]></side>
+  </card>
+  <card>
+    <side><![CDATA[γεραιός -ά -όν]]></side>
+    <side><![CDATA[old, ancient]]></side>
+  </card>
+  <card>
+    <side><![CDATA[γέρων]]></side>
+    <side><![CDATA[γέροντος, ὁ]]></side>
+    <side><![CDATA[old man]]></side>
+  </card>
+  <card>
+    <side><![CDATA[γέφυρα]]></side>
+    <side><![CDATA[γεφύρας, ἡ]]></side>
+    <side><![CDATA[bridge]]></side>
+  </card>
+  <card>
+    <side><![CDATA[γῆ]]></side>
+    <side><![CDATA[γῆς, ἡ]]></side>
+    <side><![CDATA[earth]]></side>
+  </card>
+  <card>
+    <side><![CDATA[γίγας]]></side>
+    <side><![CDATA[γίγαντος, ὁ]]></side>
+    <side><![CDATA[giant]]></side>
+  </card>
+  <card>
+    <side><![CDATA[γίγνομαι]]></side>
+    <side><![CDATA[γενήσομαι, ἐγενόμην, γέγονα, γεγένημαι, ἐγενήθην]]></side>
+    <side><![CDATA[to become, happen, come into being]]></side>
+  </card>
+  <card>
+    <side><![CDATA[γιγνώσκω]]></side>
+    <side><![CDATA[γνώσομαι, ἔγνων, ἔγνωκα, ἔγνωσμαι, ἐγώσθην]]></side>
+    <side><![CDATA[to know]]></side>
+  </card>
+  <card>
+    <side><![CDATA[γλυκύς -εῖα -ύ]]></side>
+    <side><![CDATA[sweet]]></side>
+  </card>
+  <card>
+    <side><![CDATA[γλῶσσα (γλῶττα)]]></side>
+    <side><![CDATA[γλώσσης, ἡ]]></side>
+    <side><![CDATA[tongue, language]]></side>
+  </card>
+  <card>
+    <side><![CDATA[γνώμη]]></side>
+    <side><![CDATA[γνώμης, ἡ]]></side>
+    <side><![CDATA[opinion, judgement, intention]]></side>
+  </card>
+  <card>
+    <side><![CDATA[γράμμα]]></side>
+    <side><![CDATA[γράμματος, τό]]></side>
+    <side><![CDATA[letter (of the alphabet), writing]]></side>
+  </card>
+  <card>
+    <side><![CDATA[γραῦς]]></side>
+    <side><![CDATA[γραός, ἡ]]></side>
+    <side><![CDATA[old man]]></side>
+  </card>
+  <card>
+    <side><![CDATA[γράφω]]></side>
+    <side><![CDATA[γράψω, ἔγραψα, γέγραφα, γέγραμμαι, ἐγράφθην]]></side>
+    <side><![CDATA[to write]]></side>
+  </card>
+  <card>
+    <side><![CDATA[γυμνός -ή -όν]]></side>
+    <side><![CDATA[naked]]></side>
+  </card>
+  <card>
+    <side><![CDATA[γυνή]]></side>
+    <side><![CDATA[γυναικός, ἡ]]></side>
+    <side><![CDATA[woman, wife]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δαίμων]]></side>
+    <side><![CDATA[δαίμονος, ὁ]]></side>
+    <side><![CDATA[god, spirit, destiny, lot]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δάκνω]]></side>
+    <side><![CDATA[δήξομαι, ἔδακον, δέδηχα, δέδηγμαι, ἐδήχθην]]></side>
+    <side><![CDATA[to bite]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δακρύω]]></side>
+    <side><![CDATA[δακρύσω, ἐδάκρυσα, δεδάκρυκα, δεδάκρυμαι, ἐδακρύθην]]></side>
+    <side><![CDATA[to cry, lament (for), weep (for)]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δέ]]></side>
+    <side><![CDATA[but; on the other hand]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δεῖ]]></side>
+    <side><![CDATA[it is necessary]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δείκνυμι]]></side>
+    <side><![CDATA[δείξω, ἔδειξα, δέδειχα, δέδειγμαι, ἐδείχθην]]></side>
+    <side><![CDATA[to point (out, at), show]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δειλία]]></side>
+    <side><![CDATA[δειλίας, ἡ]]></side>
+    <side><![CDATA[cowardice]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δειλός -ή -όν]]></side>
+    <side><![CDATA[coward(ly)]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δεινός -ή -όν]]></side>
+    <side><![CDATA[terrible, strange, wonderful]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δεῖπνον]]></side>
+    <side><![CDATA[δείπνου, τό]]></side>
+    <side><![CDATA[feast, meal, dinner]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δέκα]]></side>
+    <side><![CDATA[ten]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δέκατος]]></side>
+    <side><![CDATA[tenth]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δένδρον]]></side>
+    <side><![CDATA[δένδρου τό]]></side>
+    <side><![CDATA[tree]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δεξιός -ά -όν]]></side>
+    <side><![CDATA[right (hand)]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δέος]]></side>
+    <side><![CDATA[δέους, τό]]></side>
+    <side><![CDATA[fear]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δεσμωτήριον]]></side>
+    <side><![CDATA[δεσμωτερίου, τό]]></side>
+    <side><![CDATA[prison]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δεσπότης]]></side>
+    <side><![CDATA[δεσπότου, ὁ]]></side>
+    <side><![CDATA[lord, master]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δεῦρο]]></side>
+    <side><![CDATA[here]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δεύτερος -α -ον]]></side>
+    <side><![CDATA[second]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δέχομαι]]></side>
+    <side><![CDATA[δέξομαι, ἐδεξάμην, δέδεγμαι, ἐδέχθην]]></side>
+    <side><![CDATA[to accept, receive]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δή]]></side>
+    <side><![CDATA[indeed]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δῆλος -η -ον]]></side>
+    <side><![CDATA[clear, manifest]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δηλόω]]></side>
+    <side><![CDATA[δηλώσω, ἐδήλωσα, δεδήλωκα, δεδήλωμαι, ἐδηλώθην]]></side>
+    <side><![CDATA[to show]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δημοκρατία]]></side>
+    <side><![CDATA[δημοκρατίας, ἡ]]></side>
+    <side><![CDATA[democracy]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δῆμος]]></side>
+    <side><![CDATA[δήμου, ὁ]]></side>
+    <side><![CDATA[people]]></side>
+  </card>
+  <card>
+    <side><![CDATA[διά]]></side>
+    <side><![CDATA[(gen) through, by; (acc) on account of, because of]]></side>
+  </card>
+  <card>
+    <side><![CDATA[διαβαίνω]]></side>
+    <side><![CDATA[διαβήσομαι διέβην διαβέβηκα]]></side>
+    <side><![CDATA[to cross, go over]]></side>
+  </card>
+  <card>
+    <side><![CDATA[διακόσιοι -αι -α]]></side>
+    <side><![CDATA[two hundred]]></side>
+  </card>
+  <card>
+    <side><![CDATA[διαλέγομαι]]></side>
+    <side><![CDATA[διαλέξομαι (διαλεχθήσομαι), διελέξαμην, διείλεγμαι, διελέχθην]]></side>
+    <side><![CDATA[to converse with]]></side>
+  </card>
+  <card>
+    <side><![CDATA[διαλύω]]></side>
+    <side><![CDATA[διαλύσω, διέλυσα, διαλέλυκα, διαλέλυμαι, διελύθην]]></side>
+    <side><![CDATA[to break off, destroy]]></side>
+  </card>
+  <card>
+    <side><![CDATA[διαφεύγω]]></side>
+    <side><![CDATA[διαφεύξομαι, διέφυγον, διαπέφευγα]]></side>
+    <side><![CDATA[to escape]]></side>
+  </card>
+  <card>
+    <side><![CDATA[διαφθείρω]]></side>
+    <side><![CDATA[διαφθερῶ, διέφθερα, διέφθαρκα (διέφθορα), διέφθαρμαι, διεφθάρην]]></side>
+    <side><![CDATA[to destroy]]></side>
+  </card>
+  <card>
+    <side><![CDATA[διδάσκαλος]]></side>
+    <side><![CDATA[διδασκάλου, ὁ]]></side>
+    <side><![CDATA[teacher]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δίδωμι]]></side>
+    <side><![CDATA[δώσω, ἔδωκα, δέδωκα, δέδωμαι, ἐδόθην]]></side>
+    <side><![CDATA[to give]]></side>
+  </card>
+  <card>
+    <side><![CDATA[διδάσκω]]></side>
+    <side><![CDATA[διδάξω, ἐδίδαξα, δεδίδαχα, δεδίδαγμαι, ἐδιδάχθην]]></side>
+    <side><![CDATA[to teach]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δίκαιος -η -ον]]></side>
+    <side><![CDATA[just, right]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δικαιοσύνη]]></side>
+    <side><![CDATA[δικαιοσύνης, ἡ]]></side>
+    <side><![CDATA[justice]]></side>
+  </card>
+  <card>
+    <side><![CDATA[διώκω]]></side>
+    <side><![CDATA[διώξω, ἐδίωξα (έδιώκαθον), δεδίωκα, δεδίωγμαι, ἐδιώχθην]]></side>
+    <side><![CDATA[to chase, pursue; to prosecute]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δοκέω]]></side>
+    <side><![CDATA[δόξω (δοκήσω), ἔδοξα (ἐδόκησα), δεδόκηκα, δέδογμαι (δεδόκημαι), ἐδόχθην (ἐδοκήθην)]]></side>
+    <side><![CDATA[to think, suppose; to seem, to seem good]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δόξα]]></side>
+    <side><![CDATA[δόξας, ἡ]]></side>
+    <side><![CDATA[opinion]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δοῦλος]]></side>
+    <side><![CDATA[δούλου, ὁ]]></side>
+    <side><![CDATA[slave]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δουλόω]]></side>
+    <side><![CDATA[δουλώσω, ἐδόυλωσα, δεδούλωκα, δεδούλωμαι, ἐδουλώθην]]></side>
+    <side><![CDATA[to enslave]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δύναμαι]]></side>
+    <side><![CDATA[δυνήσομαι, ἐδυνησάμην, δεδύνημαι]]></side>
+    <side><![CDATA[to be able, be strong]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δύναμις]]></side>
+    <side><![CDATA[δυνάμεως, ἡ]]></side>
+    <side><![CDATA[power, ability]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δυνατός -η -ον]]></side>
+    <side><![CDATA[strong, able, possible, powerful]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δύο]]></side>
+    <side><![CDATA[two]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δώδεκα]]></side>
+    <side><![CDATA[twelve]]></side>
+  </card>
+  <card>
+    <side><![CDATA[δώρον]]></side>
+    <side><![CDATA[δώρου, τό]]></side>
+    <side><![CDATA[gift]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἑαυτοῦ ἑαυτῆς ἑαυτοῦ]]></side>
+    <side><![CDATA[reflexive pronoun]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐάω]]></side>
+    <side><![CDATA[ἐάσω, εἴασα, εἴακα, εἴαμαι, εἰάθην]]></side>
+    <side><![CDATA[to allow, let, suffer]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐγγύς]]></side>
+    <side><![CDATA[near; (gen) near to]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐγώ]]></side>
+    <side><![CDATA[I]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐθέλω]]></side>
+    <side><![CDATA[ἐθελήσω, ἠθέλησα, ἠθέληκα]]></side>
+    <side><![CDATA[to wish, want]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εἰ]]></side>
+    <side><![CDATA[if]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εἴθε...εἴθε...]]></side>
+    <side><![CDATA[either...or...]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εἴκοσι]]></side>
+    <side><![CDATA[twenty]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εἰμι]]></side>
+    <side><![CDATA[ἔσομαι, ἦν]]></side>
+    <side><![CDATA[to be]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εἶμι]]></side>
+    <side><![CDATA[will go]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εἰρήνη]]></side>
+    <side><![CDATA[εἰρήνης, ἡ]]></side>
+    <side><![CDATA[peace]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εἰς (ἐς)]]></side>
+    <side><![CDATA[(acc) into, to, at]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εἷς μία ἕν]]></side>
+    <side><![CDATA[one]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εἰσάγω]]></side>
+    <side><![CDATA[εἰσάξω, είσήγαγον, εἰσῆχα, εἰσῆγμαι, εἰσήχθην]]></side>
+    <side><![CDATA[to bring in, lead in]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εἰσβαίνω]]></side>
+    <side><![CDATA[εἰσβήσομαι, εἰσέβην, εἰσβέβηκα]]></side>
+    <side><![CDATA[to go in, come in]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εἰσβάλλω]]></side>
+    <side><![CDATA[εἰσβαλῶ, εἰσέβαλον, εἰσβέβληκα, εἰσβέβλημαι, εἰσεβλήθην]]></side>
+    <side><![CDATA[to throw into, to invade]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εἰσβολή]]></side>
+    <side><![CDATA[εἰσβολῆς, ἡ]]></side>
+    <side><![CDATA[pass]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εἰσέρχομαι]]></side>
+    <side><![CDATA[εἰσελεύσομαι, ἦλθον, ἐλήλυθα]]></side>
+    <side><![CDATA[to go into, come into]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εἴσοδος]]></side>
+    <side><![CDATA[εἰσόδου, ἡ]]></side>
+    <side><![CDATA[entrance]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εἶτα]]></side>
+    <side><![CDATA[then]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εἴτε...εἴτε...]]></side>
+    <side><![CDATA[either...or...]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐκ]]></side>
+    <side><![CDATA[(gen) out from, out of]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἕκαστος -η -ον]]></side>
+    <side><![CDATA[each, every]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἑκάτερος -α -ον]]></side>
+    <side><![CDATA[each of two]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἑκατόν]]></side>
+    <side><![CDATA[one hundred]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐκβαίνω]]></side>
+    <side><![CDATA[ἐκβήσομαι ἐξέβην ἐκβέβηκα]]></side>
+    <side><![CDATA[to go out]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐκβάλλω]]></side>
+    <side><![CDATA[ἐκβαλῶ ἐξέβαλον ἐκβέβληκα ἐκβέβλημαι ἐξεβλήθην]]></side>
+    <side><![CDATA[to throw out]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐκεῖ]]></side>
+    <side><![CDATA[there]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐκεῖθεν]]></side>
+    <side><![CDATA[from there; thence]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐκεῖνος -η -ον]]></side>
+    <side><![CDATA[that]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐκεῖσε]]></side>
+    <side><![CDATA[to there; thither]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐκκλησία]]></side>
+    <side><![CDATA[ἐκκλησίας, ἡ]]></side>
+    <side><![CDATA[assembly]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐκκομίζω]]></side>
+    <side><![CDATA[ἐκκομιῶ, ἐξεκόμισα, ἐκκεκόμικα, ἐκκεκόμισμαι, ἐξεκομίσθην]]></side>
+    <side><![CDATA[to carry out, bring out]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐλάσσων (ἐλάττων) -ον]]></side>
+    <side><![CDATA[lesser]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐλαύνω]]></side>
+    <side><![CDATA[ἐλῶ, ἤλασα, ἐλήλακα, ἐλήλαμαι, ἠλάθην]]></side>
+    <side><![CDATA[to drive, march]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐλάχιστος -η -ον]]></side>
+    <side><![CDATA[smallest, fewest]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐλέγχω]]></side>
+    <side><![CDATA[ἐλέγξω, ἤλεγξα, ελήλεγμαι, ἠλέγχθην]]></side>
+    <side><![CDATA[to cross-examine, refute, convict]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐλευθερία]]></side>
+    <side><![CDATA[ἐλευθερίας, ἡ]]></side>
+    <side><![CDATA[freedom, liberty]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐλεύθερος -α -ον]]></side>
+    <side><![CDATA[free]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐλευθερόω]]></side>
+    <side><![CDATA[ἐλευθερώσω, ἠλευθέρωσα, ἠλευθέρωκα, ἠλευθέρωμαι, ἠλευθερώθην]]></side>
+    <side><![CDATA[to set free, liberate]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἕλκω]]></side>
+    <side><![CDATA[ἕλξω, εἵλκυσα, εἵλκυκα, εἵλκυσμαι, εἱλκύσθην]]></side>
+    <side><![CDATA[to drag]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐλπίζω]]></side>
+    <side><![CDATA[ἐλπιῶ, ἤλπισα, ἠλπίσθην]]></side>
+    <side><![CDATA[to hope (for)]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐλπίς]]></side>
+    <side><![CDATA[ἐλπίδος, ἡ]]></side>
+    <side><![CDATA[hope]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐμβάλλω]]></side>
+    <side><![CDATA[ἐμβαλῶ, ἐνέβαλον, ἐμβέβληκα, ἐμβέβλημαι, ἐνεβλήθην]]></side>
+    <side><![CDATA[to ram]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐμός -ή -όν]]></side>
+    <side><![CDATA[my]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐν]]></side>
+    <side><![CDATA[(dat) in, on, within, at, among]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐναντίος -α -ον]]></side>
+    <side><![CDATA[opposite]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἕνδεκα]]></side>
+    <side><![CDATA[eleven]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἔνθα]]></side>
+    <side><![CDATA[where]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐνθάδε]]></side>
+    <side><![CDATA[here, there]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐννέα]]></side>
+    <side><![CDATA[nine]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐνταῦθα]]></side>
+    <side><![CDATA[in this place, to this place]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐντεῦθεν]]></side>
+    <side><![CDATA[from this place]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἕξ]]></side>
+    <side><![CDATA[six]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐξάγω]]></side>
+    <side><![CDATA[ἐξάξω, ἐξήγαγον, ἐξῆχα, ἐξῆγμαι, ἐξήχθην]]></side>
+    <side><![CDATA[to lead out]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἔξεστι]]></side>
+    <side><![CDATA[it is possible]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐξετάζω]]></side>
+    <side><![CDATA[ἐξετάσω, ἐξήτασα, ἐξήτακα, ἐξήτασμαι, ἐξητάσθην]]></side>
+    <side><![CDATA[to question, examine]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἔξω]]></side>
+    <side><![CDATA[outside]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἔοικα]]></side>
+    <side><![CDATA[to be like, to be seemly]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἑορτή]]></side>
+    <side><![CDATA[ἑορτῆς, ἡ]]></side>
+    <side><![CDATA[feast, festival]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐπανέρχομαι]]></side>
+    <side><![CDATA[ἐπανελεύσομαι, ἐπανῆλθον, ἐπανελήλυθα]]></side>
+    <side><![CDATA[to return]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐπεί]]></side>
+    <side><![CDATA[when, since]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐπειδή]]></side>
+    <side><![CDATA[when, after, since]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἔπειτα]]></side>
+    <side><![CDATA[then]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐπείτε]]></side>
+    <side><![CDATA[when, since]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐπί]]></side>
+    <side><![CDATA[(gen) upon; (dat) upon, over, next to, in addition to; (acc) onto, up to, toward, against]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐπιβουλεύω]]></side>
+    <side><![CDATA[ἐπιβουλεύσω, ἐπεβούλευσα, ἐπιβεβούλευκα, ἐπιβεβούλευμαι, ἐπεβουλεύθην]]></side>
+    <side><![CDATA[to plot against]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐπίκειμαι]]></side>
+    <side><![CDATA[ἐπικείσομαι, ἐπεκείμην]]></side>
+    <side><![CDATA[to lie near, lie off, lie opposite]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐπιμελέομαι]]></side>
+    <side><![CDATA[ἐπιμελήσομαι, ἐπιμεμέλημαι, ἐπεμελήθην,]]></side>
+    <side><![CDATA[to take care of, have charge of]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐπίσταμαι]]></side>
+    <side><![CDATA[ἐπιστήσομαι, ἠπιστήθην]]></side>
+    <side><![CDATA[to know how to, understand]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐπιστολή]]></side>
+    <side><![CDATA[ἐπιστολῆς, ἡ]]></side>
+    <side><![CDATA[letter, message]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐπιτήδειος -α -ον]]></side>
+    <side><![CDATA[fitting, suitable]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐπιτίθημι]]></side>
+    <side><![CDATA[ἐπιθήσω, ἐπέθηκα, ἐπιτέθηκα, ἐπιτέθειμαι, ἐπετέθην]]></side>
+    <side><![CDATA[to put (something) on (something)]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐπιτρέπω]]></side>
+    <side><![CDATA[ἐπιτρέψω, ἐπίτρεψα (ἐπίτραπον), ἐπιτέτροφα, ἐπιτέτραμμαι, ἐπετρέφθην]]></side>
+    <side><![CDATA[to entrust]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐπιχειρέω]]></side>
+    <side><![CDATA[ἐπιχειρήσω, ἐπεχείρησα, ἐπικεχείρηκα, ἐπικεχείρημαι, ἐπεχειρήθην]]></side>
+    <side><![CDATA[to attempt]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἕπομαι]]></side>
+    <side><![CDATA[ἕψομαι, ἑσπόμην]]></side>
+    <side><![CDATA[to follow]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἑπτά]]></side>
+    <side><![CDATA[seven]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐράω]]></side>
+    <side><![CDATA[ἠράμην]]></side>
+    <side><![CDATA[to love]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐργάζομαι]]></side>
+    <side><![CDATA[ἐργάσομαι, εἰργασάμην, εἴργασμαι]]></side>
+    <side><![CDATA[to work, labor]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἔργον]]></side>
+    <side><![CDATA[ἔργου, τό]]></side>
+    <side><![CDATA[work, deed, action]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἔρχομαι]]></side>
+    <side><![CDATA[ἐλεύσομαι ἦλθον ἐλήλυκα]]></side>
+    <side><![CDATA[to come, go]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐρωτάω]]></side>
+    <side><![CDATA[ἐρωτήσω, ἠρώτησα, ἠρώτηκα, ἠρώτημαι, ἠρωτήθην]]></side>
+    <side><![CDATA[to ask, inquire]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἔσθιω]]></side>
+    <side><![CDATA[ἔδομαι, ἐδήδοκα, ἐδήδεσμαι]]></side>
+    <side><![CDATA[to eat]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἑσπέρα]]></side>
+    <side><![CDATA[ἑσπέρας, ἡ]]></side>
+    <side><![CDATA[evening]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἔσχατος -η -ον]]></side>
+    <side><![CDATA[last]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἑταῖρος]]></side>
+    <side><![CDATA[ἑταίρου, ὁ]]></side>
+    <side><![CDATA[companion]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἕτερος -α -ον]]></side>
+    <side><![CDATA[the other of two]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἔτι]]></side>
+    <side><![CDATA[still, yet]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἑτοῖμος (ἕτοιμος ) -η -ον]]></side>
+    <side><![CDATA[ready]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἔτος]]></side>
+    <side><![CDATA[ἔτους, τό]]></side>
+    <side><![CDATA[year]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εὖ]]></side>
+    <side><![CDATA[well]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εὐγενής -ες]]></side>
+    <side><![CDATA[well-born]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εὐδαίμων -ον]]></side>
+    <side><![CDATA[blessed, lucky, good-futured, happy]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εὐθύς -εῖα -ύ]]></side>
+    <side><![CDATA[straight, direct (εὐθύς or εὐθύ:  straight-away)]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εὑρίσκω]]></side>
+    <side><![CDATA[εὑρήσω, εὗρον (ηὗρον), εὕρηκα, ηὕρημαι (εὕρημαι), εὑρέθην]]></side>
+    <side><![CDATA[to find, discover]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εὐρύς -εῖα -ύ]]></side>
+    <side><![CDATA[wide, broad]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εὐχή]]></side>
+    <side><![CDATA[εὐχῆς, ἡ]]></side>
+    <side><![CDATA[prayer]]></side>
+  </card>
+  <card>
+    <side><![CDATA[εὔχομαι]]></side>
+    <side><![CDATA[εὔξομαι, ηὐξάμην (εὐξάμην), εὖγμαι]]></side>
+    <side><![CDATA[to pray]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐφίημι]]></side>
+    <side><![CDATA[ἐφήσω, ἔφηκα, ἐφεῖκα, ἐφεῖμαι, ἐφείθην]]></side>
+    <side><![CDATA[to send against, to let loose]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐφίστημι]]></side>
+    <side><![CDATA[ἐπιστήσω, ἐπέστηα (ἐπέστην), ἐφέστηκα, ἐφέσταμαι, ἐπεστάθην]]></side>
+    <side><![CDATA[to set in charge of, cause to stop, stand upon]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἐχθρός -ή -όν]]></side>
+    <side><![CDATA[hateful, hated]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἔχω]]></side>
+    <side><![CDATA[ἕξω, ἔσχον, ἔσχηκα, ἔσχημαι, ἐσχέθην]]></side>
+    <side><![CDATA[to hold, have]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἕως]]></side>
+    <side><![CDATA[until, while, as long as]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ζάω]]></side>
+    <side><![CDATA[ζήσω, ἔζησα ]]></side>
+    <side><![CDATA[to live]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ζεύγνυμι]]></side>
+    <side><![CDATA[ζεύξω, ἔζευξα, ἐθεύχθην]]></side>
+    <side><![CDATA[to yolk together, bind together]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ζητέω]]></side>
+    <side><![CDATA[ζητήσω, ἐζήτησα, ἐζήτηκα, ἐζήτημαι, ἐζητήθην]]></side>
+    <side><![CDATA[to seek]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ζωή]]></side>
+    <side><![CDATA[ζωῆς, ἡ]]></side>
+    <side><![CDATA[life]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ζῷον]]></side>
+    <side><![CDATA[ζῴου, τό]]></side>
+    <side><![CDATA[animal]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἤ]]></side>
+    <side><![CDATA[or; than]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ᾗ]]></side>
+    <side><![CDATA[in which way]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἡγέομαι]]></side>
+    <side><![CDATA[ἡγήσομαι, ἡγησάμην, ἥγημαι]]></side>
+    <side><![CDATA[to lead, think, consider]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἡγεμών]]></side>
+    <side><![CDATA[ἡγεμόνος, ὁ]]></side>
+    <side><![CDATA[leader]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἤδε]]></side>
+    <side><![CDATA[already, immediately, actually, now]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἥδομαι]]></side>
+    <side><![CDATA[ἡσθήσομαι, ἥσθην (ἡσάμην)]]></side>
+    <side><![CDATA[to enjoy oneself, take delight, be happy]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἡδύς -εῖα -ύ]]></side>
+    <side><![CDATA[sweet]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἥκω]]></side>
+    <side><![CDATA[ἥξω, ἧκον]]></side>
+    <side><![CDATA[to have come, be present, to have arrived]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἥλιος]]></side>
+    <side><![CDATA[ἡλίου, ὁ]]></side>
+    <side><![CDATA[the sun]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἡμεῖς]]></side>
+    <side><![CDATA[we]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἡμέρα]]></side>
+    <side><![CDATA[ἡμέρας, ἡ]]></side>
+    <side><![CDATA[day]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἡμέτερος -α -ον]]></side>
+    <side><![CDATA[our(s)]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἤμπειρος]]></side>
+    <side><![CDATA[ἠμπείρου, ὁ]]></side>
+    <side><![CDATA[mainland]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἡσυχάζω]]></side>
+    <side><![CDATA[ἡσυχάσω, ἡσύχασα, ἡσύχακα, ἡσύχασμαι]]></side>
+    <side><![CDATA[to be quiet]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἡσυχία]]></side>
+    <side><![CDATA[ἡσυχίας, ἡ]]></side>
+    <side><![CDATA[quiet, peace, calm]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἥσυχος -η -ον]]></side>
+    <side><![CDATA[quiet, calm]]></side>
+  </card>
+  <card>
+    <side><![CDATA[θάλασσα (θάλαττα)]]></side>
+    <side><![CDATA[θαλάσσης, ἡ]]></side>
+    <side><![CDATA[sea]]></side>
+  </card>
+  <card>
+    <side><![CDATA[θάνατος]]></side>
+    <side><![CDATA[θανάτου, ὁ]]></side>
+    <side><![CDATA[death]]></side>
+  </card>
+  <card>
+    <side><![CDATA[θάπτω]]></side>
+    <side><![CDATA[θάψω, ἔθαψα, τέθαμμαι, ἐθάφθην (ἐτάφην)]]></side>
+    <side><![CDATA[to bury]]></side>
+  </card>
+  <card>
+    <side><![CDATA[θαῦμα]]></side>
+    <side><![CDATA[θαύματος, τό]]></side>
+    <side><![CDATA[wonder, marvel]]></side>
+  </card>
+  <card>
+    <side><![CDATA[θαυμάζω]]></side>
+    <side><![CDATA[θαυμάσομαι, ἐθαύμασα, τεθαύμακα, τεθαύμασμαι, ἐθαυμάσθην]]></side>
+    <side><![CDATA[to wonder at, marvel]]></side>
+  </card>
+  <card>
+    <side><![CDATA[θεά]]></side>
+    <side><![CDATA[θεᾶς, ἡ]]></side>
+    <side><![CDATA[goddess]]></side>
+  </card>
+  <card>
+    <side><![CDATA[θεός]]></side>
+    <side><![CDATA[θεοῦ, ὁ]]></side>
+    <side><![CDATA[god]]></side>
+  </card>
+  <card>
+    <side><![CDATA[θέρος]]></side>
+    <side><![CDATA[θέρους, τό]]></side>
+    <side><![CDATA[summer]]></side>
+  </card>
+  <card>
+    <side><![CDATA[θηρίον]]></side>
+    <side><![CDATA[θηρίου, τό]]></side>
+    <side><![CDATA[wild animal]]></side>
+  </card>
+  <card>
+    <side><![CDATA[θήρ]]></side>
+    <side><![CDATA[θηρός, ὁ]]></side>
+    <side><![CDATA[beast]]></side>
+  </card>
+  <card>
+    <side><![CDATA[θῆλυς -εια -υ]]></side>
+    <side><![CDATA[feminine, effeminate]]></side>
+  </card>
+  <card>
+    <side><![CDATA[θησαυρός]]></side>
+    <side><![CDATA[θησαυροῦ, ὁ]]></side>
+    <side><![CDATA[treasure, treasury]]></side>
+  </card>
+  <card>
+    <side><![CDATA[θνήσκω]]></side>
+    <side><![CDATA[θανοῦμαι, ἔθανον, τέθνηκα]]></side>
+    <side><![CDATA[to die]]></side>
+  </card>
+  <card>
+    <side><![CDATA[θόρυβος]]></side>
+    <side><![CDATA[θορύβου, ὁ]]></side>
+    <side><![CDATA[din, shouting, uproar]]></side>
+  </card>
+  <card>
+    <side><![CDATA[θυγάτηρ]]></side>
+    <side><![CDATA[θυγατέρος, ἡ]]></side>
+    <side><![CDATA[daughter]]></side>
+  </card>
+  <card>
+    <side><![CDATA[θυμός]]></side>
+    <side><![CDATA[θυμοῦ, ὁ]]></side>
+    <side><![CDATA[heart, spirit]]></side>
+  </card>
+  <card>
+    <side><![CDATA[θύρα]]></side>
+    <side><![CDATA[θύρας, ἡ]]></side>
+    <side><![CDATA[door]]></side>
+  </card>
+  <card>
+    <side><![CDATA[θύω]]></side>
+    <side><![CDATA[θύσω, ἔθυσα, τέθυκα, τέθυμαι, ἐτύθην]]></side>
+    <side><![CDATA[to sacrifice]]></side>
+  </card>
+  <card>
+    <side><![CDATA[θώραξ]]></side>
+    <side><![CDATA[θώρακος, ὁ]]></side>
+    <side><![CDATA[breastplate]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἰατρός]]></side>
+    <side><![CDATA[ἰατροῦ, ὁ]]></side>
+    <side><![CDATA[doctor]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἰδιώτης]]></side>
+    <side><![CDATA[ἰδιώτου, ὁ]]></side>
+    <side><![CDATA[private person]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἱερεύς]]></side>
+    <side><![CDATA[ἱερέως, ὁ]]></side>
+    <side><![CDATA[priest]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἱερός -α -ον]]></side>
+    <side><![CDATA[sacred]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἵημι]]></side>
+    <side><![CDATA[ἧκα]]></side>
+    <side><![CDATA[to release, set forth (most forms found only in compounds)]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἱκανός -η -ον]]></side>
+    <side><![CDATA[enough, suitable]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἵνα]]></side>
+    <side><![CDATA[in order that]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἱππεύς]]></side>
+    <side><![CDATA[ἱππέως, ὁ]]></side>
+    <side><![CDATA[rider, cavalryman]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἵππος]]></side>
+    <side><![CDATA[ἵππου, ὁ]]></side>
+    <side><![CDATA[horse]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἵστημι]]></side>
+    <side><![CDATA[στήσω, ἔστηκα (ἔστην), ἕστηκα, ἕσταμαι, ἐστάθην]]></side>
+    <side><![CDATA[to stand, stop, make stand, be placed, stand still]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἰσχυρός -ή -όν]]></side>
+    <side><![CDATA[strong]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἴσως]]></side>
+    <side><![CDATA[perhaps]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ἰχθύς ]]></side>
+    <side><![CDATA[ἰχθύος, ὁ]]></side>
+    <side><![CDATA[fish]]></side>
+  </card>
+  <card>
+    <side><![CDATA[καθεύδω]]></side>
+    <side><![CDATA[καθευδήσω, καθηῦδον]]></side>
+    <side><![CDATA[to sleep]]></side>
+  </card>
+  <card>
+    <side><![CDATA[καί]]></side>
+    <side><![CDATA[and, also, too]]></side>
+  </card>
+  <card>
+    <side><![CDATA[καθίστημι]]></side>
+    <side><![CDATA[καταστήσω, κατέστηκα (κατέστην), καθέστηκα, καθέσταμαι, κατεστάθην]]></side>
+    <side><![CDATA[to set up]]></side>
+  </card>
+  <card>
+    <side><![CDATA[καίπερ]]></side>
+    <side><![CDATA[although]]></side>
+  </card>
+  <card>
+    <side><![CDATA[καιρός]]></side>
+    <side><![CDATA[καιροῦ, ὁ]]></side>
+    <side><![CDATA[right time, opportunity]]></side>
+  </card>
+  <card>
+    <side><![CDATA[καίω]]></side>
+    <side><![CDATA[καύσω, ἔκαυσα, κέκαυκα, κέκαυμαι, ἐκαύθην]]></side>
+    <side><![CDATA[to burn]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κακός -ή -όν]]></side>
+    <side><![CDATA[bad, evil]]></side>
+  </card>
+  <card>
+    <side><![CDATA[καλέω ]]></side>
+    <side><![CDATA[καλῶ, ἐκάλεσα, κέκληκα, κέκλημαι, ἐκλήθην]]></side>
+    <side><![CDATA[to call]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κάλλος]]></side>
+    <side><![CDATA[κάλλου, ὁ]]></side>
+    <side><![CDATA[beauty]]></side>
+  </card>
+  <card>
+    <side><![CDATA[καλός -ή -όν]]></side>
+    <side><![CDATA[beatiful]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κάμηλος]]></side>
+    <side><![CDATA[καμήλου, ὁ]]></side>
+    <side><![CDATA[camel]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κατά]]></side>
+    <side><![CDATA[(gen) down from, against; (acc) down along, in accordance with, according to]]></side>
+  </card>
+  <card>
+    <side><![CDATA[καταβαίνω]]></side>
+    <side><![CDATA[καταβήσομαι, κατέβην, καταβέβηκα]]></side>
+    <side><![CDATA[to go down, dismount]]></side>
+  </card>
+  <card>
+    <side><![CDATA[καταβάλλω]]></side>
+    <side><![CDATA[καταβαλῶ, κατέβαλον, καταβέβληκα, καταβέβλημαι, κατεβλήθην]]></side>
+    <side><![CDATA[to throw down]]></side>
+  </card>
+  <card>
+    <side><![CDATA[καταδύω]]></side>
+    <side><![CDATA[καταδύσομαι, κατέδυν, καταδέδυκα]]></side>
+    <side><![CDATA[to sink]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κατακαίω]]></side>
+    <side><![CDATA[κατακαίσω, κατέκαυσα, κατακέκαυκα, κατακέκαυμαι, κατεκαύθην]]></side>
+    <side><![CDATA[to burn down]]></side>
+  </card>
+  <card>
+    <side><![CDATA[καταλαμβάνω]]></side>
+    <side><![CDATA[καταλήψομαι, κατέλαβον, κατείληφα, κατείλημμαι, κατελήφθην]]></side>
+    <side><![CDATA[to capture, happen to]]></side>
+  </card>
+  <card>
+    <side><![CDATA[καταλείπω]]></side>
+    <side><![CDATA[καταλείψω, κατέλιπον, καταλέλοιπα, καταλέλειμμαι, κατελείφθην]]></side>
+    <side><![CDATA[to leave behind, to desert]]></side>
+  </card>
+  <card>
+    <side><![CDATA[καταλύω]]></side>
+    <side><![CDATA[καταλύσω, κατέλυσα, καταλέλυκα, καταλέλυμαι, κατελύθην]]></side>
+    <side><![CDATA[to break up, dissolve, destroy]]></side>
+  </card>
+  <card>
+    <side><![CDATA[καταστρέφω]]></side>
+    <side><![CDATA[καταστρέψω, κατέστρεψα, κατέστροφα, κατέστραμμαι, κατεστρέφθην]]></side>
+    <side><![CDATA[to overturn, subdue]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κατατίθημι]]></side>
+    <side><![CDATA[καταθήσω, κατέθηκα, κατατέθεικα, κατατέθειμαι, κατετέθην]]></side>
+    <side><![CDATA[to put down, set down]]></side>
+  </card>
+  <card>
+    <side><![CDATA[καταφεύγω]]></side>
+    <side><![CDATA[καταφεύξομαι, κατέφυγον, καταπέφευγα ]]></side>
+    <side><![CDATA[to flee for refuge]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κάτω]]></side>
+    <side><![CDATA[down, under, underneath]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κεῖμαι]]></side>
+    <side><![CDATA[κείσομαι, ἐκείμην]]></side>
+    <side><![CDATA[to be lying down]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κελεύω]]></side>
+    <side><![CDATA[κελεύσω, ἐκέλευσα, κεκέλευκα, κεκέλευσμαι, ἐκελεύσθην]]></side>
+    <side><![CDATA[to order, command]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κενός -ή -όν]]></side>
+    <side><![CDATA[empty]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κέρας]]></side>
+    <side><![CDATA[κέρατος, τό]]></side>
+    <side><![CDATA[wing of an army/fleet]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κεφαλή]]></side>
+    <side><![CDATA[κεφαλῆς, ἡ]]></side>
+    <side><![CDATA[head]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κινδυνεύω]]></side>
+    <side><![CDATA[κινδυνεύσω, ἐκινδύνευσα, κεκινδύνευκα, κεκινδύνευμαι, ἐκινδυνεύσθην]]></side>
+    <side><![CDATA[(act) to be daring; (pass) to be risked]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κίνδυνος]]></side>
+    <side><![CDATA[κινδύνου, ὁ]]></side>
+    <side><![CDATA[danger]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κινέω]]></side>
+    <side><![CDATA[κινήσω, ἐκίνησα, κεκίνηκα, κεκίνημαι, ἐκινήθην]]></side>
+    <side><![CDATA[to set in motion, move]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κλέπτω]]></side>
+    <side><![CDATA[κλέψω, ἔκλεψα, κέκλοφα, κέκλεμμαι, ἐκλέφθην]]></side>
+    <side><![CDATA[to steal]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κοινός -ή -όν]]></side>
+    <side><![CDATA[common]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κολάζω]]></side>
+    <side><![CDATA[κολάσω, ἐκόλασα, κεκόλακα, κεκόλασμαι, ἐκολάσθην]]></side>
+    <side><![CDATA[to punish]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κομίζω]]></side>
+    <side><![CDATA[κομιῶ, ἐκόμισα, κεκόμικα, κεκόμισμαι, ἐκομίσθην]]></side>
+    <side><![CDATA[to bring, take]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κόπτω]]></side>
+    <side><![CDATA[κόψω, ἔκοψα, κέκοφα, κέκομμαι, ἐκόπην]]></side>
+    <side><![CDATA[to strike, cut, chop]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κράτος]]></side>
+    <side><![CDATA[κράτους, τό]]></side>
+    <side><![CDATA[strength, power]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κρήνη]]></side>
+    <side><![CDATA[κρήνης, ἡ]]></side>
+    <side><![CDATA[well, spring]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κρίνω]]></side>
+    <side><![CDATA[κρινῶ, ἔκρινα, κέκρικα, κέκριμαι, ἐκρίσθην]]></side>
+    <side><![CDATA[to judge]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κριτής]]></side>
+    <side><![CDATA[κριτοῦ, ὁ]]></side>
+    <side><![CDATA[judge]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κρύπτω]]></side>
+    <side><![CDATA[κρύψω, ἔκρυψα, κέκρυφα, κέκρυμμαι, ἐκρύφθην]]></side>
+    <side><![CDATA[to hide, conceal]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κύκλος]]></side>
+    <side><![CDATA[κύκλου, ὁ]]></side>
+    <side><![CDATA[circle]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κύριος]]></side>
+    <side><![CDATA[κυρίου, ὁ]]></side>
+    <side><![CDATA[lord, master]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κύων]]></side>
+    <side><![CDATA[κυνός, ὁ]]></side>
+    <side><![CDATA[dog]]></side>
+  </card>
+  <card>
+    <side><![CDATA[κωλύω]]></side>
+    <side><![CDATA[κωλύσω, ἐκώλυσα, κεκώλυκα, κεκώλυμαι, ἐκωλύθην]]></side>
+    <side><![CDATA[to prevent, hinder, ward off]]></side>
+  </card>
+  <card>
+    <side><![CDATA[λαμβάνω]]></side>
+    <side><![CDATA[λήψομαι, ἔλαβον, εἴληφα, εἴλημμα, ἐλήφθην]]></side>
+    <side><![CDATA[to take, seize]]></side>
+  </card>
+  <card>
+    <side><![CDATA[λανθάνω]]></side>
+    <side><![CDATA[λήσω, ἔλαθον, λέληθα, λέλησμαι, ἐλήσθην]]></side>
+    <side><![CDATA[to escape the notice of someone]]></side>
+  </card>
+  <card>
+    <side><![CDATA[λέγω]]></side>
+    <side><![CDATA[λέξω (έρω), ἔλεξα (εἶπον), εἴρηκα, λέλεγμαι (εἴρημαι), ἐλέχθην (ἐρρήθην)]]></side>
+    <side><![CDATA[to say, speak, tell]]></side>
+  </card>
+  <card>
+    <side><![CDATA[λείπω]]></side>
+    <side><![CDATA[λείψω, ἔλιπον, λέλοιπα, λέλειμμαι, ἐλείφθην]]></side>
+    <side><![CDATA[to leave behind]]></side>
+  </card>
+  <card>
+    <side><![CDATA[λέων]]></side>
+    <side><![CDATA[λέοντος, ὁ]]></side>
+    <side><![CDATA[lion]]></side>
+  </card>
+  <card>
+    <side><![CDATA[λίθινος -η -ον]]></side>
+    <side><![CDATA[made of stone]]></side>
+  </card>
+  <card>
+    <side><![CDATA[λιμήν]]></side>
+    <side><![CDATA[λιμένος, ὁ]]></side>
+    <side><![CDATA[harbor]]></side>
+  </card>
+  <card>
+    <side><![CDATA[λόγος]]></side>
+    <side><![CDATA[λόγου, ὁ]]></side>
+    <side><![CDATA[word, speech, argument, rationale, story]]></side>
+  </card>
+  <card>
+    <side><![CDATA[λύω]]></side>
+    <side><![CDATA[λύσω, ἔλυσα, λέλυκα, λέλυμαι, ἐλύθην]]></side>
+    <side><![CDATA[to loosen,loose, dissolve]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μακρός -ά -όν]]></side>
+    <side><![CDATA[large, long]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μάλα]]></side>
+    <side><![CDATA[very]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μάλιστα]]></side>
+    <side><![CDATA[very much]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μᾶλλον]]></side>
+    <side><![CDATA[more, rather]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μανθάνω]]></side>
+    <side><![CDATA[μαθήσομαι, ἔμαθον, μεμάθηκα]]></side>
+    <side><![CDATA[to learn, understand]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μαντεῖον]]></side>
+    <side><![CDATA[μαντείου, τό]]></side>
+    <side><![CDATA[oracle]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μάχη ]]></side>
+    <side><![CDATA[μάχης, ἡ]]></side>
+    <side><![CDATA[battle]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μάχομαι]]></side>
+    <side><![CDATA[μαχοῦμαι, ἐμαχεσάμην, μεμάχημαι]]></side>
+    <side><![CDATA[to fight]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μέγας μεγάλη μέγα]]></side>
+    <side><![CDATA[big]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μέγεθος]]></side>
+    <side><![CDATA[μεγέθεος, τό]]></side>
+    <side><![CDATA[size]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μέλας μέλαινα μέλαν]]></side>
+    <side><![CDATA[black, dark]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μέλλω]]></side>
+    <side><![CDATA[μελλήσω, ἐμέλλησα, ἔμελλον (ἤμελλον)]]></side>
+    <side><![CDATA[to intend, be about to, delay]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μέν]]></side>
+    <side><![CDATA[on the one hand]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μέντοι]]></side>
+    <side><![CDATA[indeed, however]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μένω]]></side>
+    <side><![CDATA[μενῶ, ἔμεινα, μεμένηκα]]></side>
+    <side><![CDATA[to stay, remain, wait]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μέρος]]></side>
+    <side><![CDATA[μέρους, τό]]></side>
+    <side><![CDATA[part]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μέσος -η -ον]]></side>
+    <side><![CDATA[middle]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μετά]]></side>
+    <side><![CDATA[(gen) among, with; (acc) in pursuit of, after]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μεταπέμπω]]></side>
+    <side><![CDATA[μεταπέμψω, μετέπεμψα, μεταπέπομφα, μεταπέπεμμαι, μετεπέμφθην]]></side>
+    <side><![CDATA[to send for]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μέτρον]]></side>
+    <side><![CDATA[μέτρου, τό]]></side>
+    <side><![CDATA[measurement]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μέχρι]]></side>
+    <side><![CDATA[until, as long as]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μή]]></side>
+    <side><![CDATA[not]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μηδέ]]></side>
+    <side><![CDATA[and not, but not]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μηδείς μηδεμία μηδέν]]></side>
+    <side><![CDATA[no one, nothing]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μηκέτι]]></side>
+    <side><![CDATA[no longer]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μήν]]></side>
+    <side><![CDATA[truly]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μήν]]></side>
+    <side><![CDATA[μηνός, ὁ]]></side>
+    <side><![CDATA[month]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μήτε...μήτε...]]></side>
+    <side><![CDATA[neither…nor…]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μήτηρ]]></side>
+    <side><![CDATA[μητρός, ἡ]]></side>
+    <side><![CDATA[mother]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μικρός -ά -όν]]></side>
+    <side><![CDATA[small]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μισθός]]></side>
+    <side><![CDATA[μισθοῦ, ὁ]]></side>
+    <side><![CDATA[wage, pay]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μνᾶ]]></side>
+    <side><![CDATA[μνᾶς, ἡ]]></side>
+    <side><![CDATA[mina]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μόγις (μόλις)]]></side>
+    <side><![CDATA[hardly, scarcely, with difficulty]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μοῖρα]]></side>
+    <side><![CDATA[μοίρας, ἡ]]></side>
+    <side><![CDATA[lot, share, part]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μόνος -η -ον]]></side>
+    <side><![CDATA[alone, only]]></side>
+  </card>
+  <card>
+    <side><![CDATA[μῶρος -α -ον]]></side>
+    <side><![CDATA[foolish,stupid]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ναυμαχία]]></side>
+    <side><![CDATA[ναυμαχίας, ἡ]]></side>
+    <side><![CDATA[seabattle]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ναῦς]]></side>
+    <side><![CDATA[ναός, ἡ]]></side>
+    <side><![CDATA[ship]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ναυτής]]></side>
+    <side><![CDATA[ναυτοῦ, ὁ]]></side>
+    <side><![CDATA[sailor]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ναυτικόν]]></side>
+    <side><![CDATA[ναυτικοῦ, τό]]></side>
+    <side><![CDATA[fleet]]></side>
+  </card>
+  <card>
+    <side><![CDATA[νεανίας]]></side>
+    <side><![CDATA[νεανίου, ὁ]]></side>
+    <side><![CDATA[a youth]]></side>
+  </card>
+  <card>
+    <side><![CDATA[νέος -α -ον]]></side>
+    <side><![CDATA[new]]></side>
+  </card>
+  <card>
+    <side><![CDATA[νῆσος]]></side>
+    <side><![CDATA[νήσου, ἡ]]></side>
+    <side><![CDATA[island]]></side>
+  </card>
+  <card>
+    <side><![CDATA[νικάω]]></side>
+    <side><![CDATA[νικήσω, ἐνίκησα, νενίκηκα, νενίκημαι, ἐνικήθην]]></side>
+    <side><![CDATA[to win, defeat]]></side>
+  </card>
+  <card>
+    <side><![CDATA[νίκη]]></side>
+    <side><![CDATA[νίκης, ἡ]]></side>
+    <side><![CDATA[victory]]></side>
+  </card>
+  <card>
+    <side><![CDATA[νοέω]]></side>
+    <side><![CDATA[νοήσω, ἐνόησα, νενόηκα, νενόημαι, ἐνοήθην]]></side>
+    <side><![CDATA[to think]]></side>
+  </card>
+  <card>
+    <side><![CDATA[νομίζω]]></side>
+    <side><![CDATA[νομιῶ, ἐνόμισα, νενόμικα, νενόμισμαι, ἐνομίσθην]]></side>
+    <side><![CDATA[to think, revere]]></side>
+  </card>
+  <card>
+    <side><![CDATA[νόμος]]></side>
+    <side><![CDATA[νόμου, ὁ]]></side>
+    <side><![CDATA[law, custom]]></side>
+  </card>
+  <card>
+    <side><![CDATA[νόσος]]></side>
+    <side><![CDATA[νόσου, ἡ]]></side>
+    <side><![CDATA[disease, plague, sickness]]></side>
+  </card>
+  <card>
+    <side><![CDATA[νοῦς]]></side>
+    <side><![CDATA[νοῦ, ὁ]]></side>
+    <side><![CDATA[mind]]></side>
+  </card>
+  <card>
+    <side><![CDATA[νῦν]]></side>
+    <side><![CDATA[now]]></side>
+  </card>
+  <card>
+    <side><![CDATA[νύξ]]></side>
+    <side><![CDATA[νύκτος, ἡ]]></side>
+    <side><![CDATA[night]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ξενίζω]]></side>
+    <side><![CDATA[ξενιῶ, ἐξένισα, ἐξένικα, ἐξένισμαι, ἐξενίσθην]]></side>
+    <side><![CDATA[to entertain guests]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ξένος]]></side>
+    <side><![CDATA[ξένου, ὁ]]></side>
+    <side><![CDATA[foreigner, guest, stranger]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ξίφος]]></side>
+    <side><![CDATA[ξίφους, τό]]></side>
+    <side><![CDATA[sword]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὅδε ἥδε τόδε]]></side>
+    <side><![CDATA[this]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὁδός]]></side>
+    <side><![CDATA[ὁδοῦ, ἡ]]></side>
+    <side><![CDATA[way, road, journey]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὀδοῦς]]></side>
+    <side><![CDATA[ὀδόντος, ὁ]]></side>
+    <side><![CDATA[tooth]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὅθεν]]></side>
+    <side><![CDATA[from where, whence]]></side>
+  </card>
+  <card>
+    <side><![CDATA[οἷ]]></side>
+    <side><![CDATA[to where, whither]]></side>
+  </card>
+  <card>
+    <side><![CDATA[οἶδα]]></side>
+    <side><![CDATA[εἴσομαι (εἰδήσω), ᾔδη]]></side>
+    <side><![CDATA[to know]]></side>
+  </card>
+  <card>
+    <side><![CDATA[οἴκαδε]]></side>
+    <side><![CDATA[homeward]]></side>
+  </card>
+  <card>
+    <side><![CDATA[οἰκεῖος -η -ον]]></side>
+    <side><![CDATA[related]]></side>
+  </card>
+  <card>
+    <side><![CDATA[οῖκέω]]></side>
+    <side><![CDATA[οἰκήσω, ᾤκησα, ᾤκηκα, ᾤκημαι, ᾠκήθην]]></side>
+    <side><![CDATA[to live in, inhabit]]></side>
+  </card>
+  <card>
+    <side><![CDATA[οἰκία]]></side>
+    <side><![CDATA[οἰκίας, ἡ]]></side>
+    <side><![CDATA[house]]></side>
+  </card>
+  <card>
+    <side><![CDATA[οἴκοθεν]]></side>
+    <side><![CDATA[from home]]></side>
+  </card>
+  <card>
+    <side><![CDATA[οἴκοι]]></side>
+    <side><![CDATA[at home]]></side>
+  </card>
+  <card>
+    <side><![CDATA[οἶκος]]></side>
+    <side><![CDATA[οἴκου, ὁ]]></side>
+    <side><![CDATA[house]]></side>
+  </card>
+  <card>
+    <side><![CDATA[οἴομαι (οἶμαι)]]></side>
+    <side><![CDATA[οἰήσομαι, ᾠήθην]]></side>
+    <side><![CDATA[to think, believe]]></side>
+  </card>
+  <card>
+    <side><![CDATA[οἷος -α -ον]]></side>
+    <side><![CDATA[such, the sort of]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὀκτώ]]></side>
+    <side><![CDATA[eight]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὀλίγος -η -ον]]></side>
+    <side><![CDATA[little, few]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὅλος -η -ον]]></side>
+    <side><![CDATA[whole]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὅμοιος -α -ον]]></side>
+    <side><![CDATA[like, similar]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὄνομα]]></side>
+    <side><![CDATA[ὀνόματος, τό]]></side>
+    <side><![CDATA[name]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὁπόθεν]]></side>
+    <side><![CDATA[from where?]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὅποι]]></side>
+    <side><![CDATA[to where?]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὁποῖος -α -ον]]></side>
+    <side><![CDATA[whatever kind]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὁπόσος -η -ον]]></side>
+    <side><![CDATA[however much]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὁπότε]]></side>
+    <side><![CDATA[when]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὅπου]]></side>
+    <side><![CDATA[where(ever)]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὅπως]]></side>
+    <side><![CDATA[how; in order that]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὁράω]]></side>
+    <side><![CDATA[ὄψομαι, εἶδον (ὠψάμην), ὄπωπα (ἑόρακα), ὦμμαι (ἑόραμαι), ὤφθην]]></side>
+    <side><![CDATA[to seek]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὀργή]]></side>
+    <side><![CDATA[ὀργῆς, ἡ]]></side>
+    <side><![CDATA[anger, emotion]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὀργίζω]]></side>
+    <side><![CDATA[ὀργιῶ, ὤργισα, ὤργικα, ὤργισμαι, ὠργίσθην]]></side>
+    <side><![CDATA[to make angry]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὀρθός -ή -όν]]></side>
+    <side><![CDATA[correct, right]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὀρμάω]]></side>
+    <side><![CDATA[ὀρμήσω, ὤρμησα, ὤρμηκα, ὤρμημαι, ὠρμήθην]]></side>
+    <side><![CDATA[to set in motion]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὄρνις]]></side>
+    <side><![CDATA[ὄρνιθος, ὁ, ἡ]]></side>
+    <side><![CDATA[bird]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὄρος]]></side>
+    <side><![CDATA[ὄρους, τό]]></side>
+    <side><![CDATA[mountain]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὅς ἥ ὅ]]></side>
+    <side><![CDATA[who, which (relative pronoun)]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὅσος -η -ον]]></side>
+    <side><![CDATA[how much]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὅστις ἥτις ὅτι]]></side>
+    <side><![CDATA[whoever, whatever]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὅτε]]></side>
+    <side><![CDATA[when]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὅτι]]></side>
+    <side><![CDATA[that, because]]></side>
+  </card>
+  <card>
+    <side><![CDATA[οὐ]]></side>
+    <side><![CDATA[not]]></side>
+  </card>
+  <card>
+    <side><![CDATA[οὐδέ]]></side>
+    <side><![CDATA[and not, but not]]></side>
+  </card>
+  <card>
+    <side><![CDATA[οὐδείς οὐδεμία οὐδέν]]></side>
+    <side><![CDATA[no one, nothing]]></side>
+  </card>
+  <card>
+    <side><![CDATA[οὐκέτι]]></side>
+    <side><![CDATA[no longer]]></side>
+  </card>
+  <card>
+    <side><![CDATA[οὖν]]></side>
+    <side><![CDATA[therefore]]></side>
+  </card>
+  <card>
+    <side><![CDATA[οὔποτε]]></side>
+    <side><![CDATA[never]]></side>
+  </card>
+  <card>
+    <side><![CDATA[οὐρανός]]></side>
+    <side><![CDATA[οὐρανοῦ, ὁ]]></side>
+    <side><![CDATA[sky, heaven]]></side>
+  </card>
+  <card>
+    <side><![CDATA[οὔτε...οὔτε...]]></side>
+    <side><![CDATA[neither…nor…]]></side>
+  </card>
+  <card>
+    <side><![CDATA[οὗτος αὗτη τοῦτο]]></side>
+    <side><![CDATA[this]]></side>
+  </card>
+  <card>
+    <side><![CDATA[οὕτως]]></side>
+    <side><![CDATA[in this way, thus]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὀφθαλμός]]></side>
+    <side><![CDATA[ὀφθαλμοῦ, ὁ]]></side>
+    <side><![CDATA[eye]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πάθος]]></side>
+    <side><![CDATA[πάθους, τό]]></side>
+    <side><![CDATA[event, suffering]]></side>
+  </card>
+  <card>
+    <side><![CDATA[παιδεία]]></side>
+    <side><![CDATA[παιδείας, ἡ]]></side>
+    <side><![CDATA[education, training, rearing]]></side>
+  </card>
+  <card>
+    <side><![CDATA[παιδεύω]]></side>
+    <side><![CDATA[παιδεύσω, ἐπαίδευσα, πεπαίδευκα, πεπαίδευμαι, ἐπαιδεύθην,]]></side>
+    <side><![CDATA[to educate, rear, teach]]></side>
+  </card>
+  <card>
+    <side><![CDATA[παιδίον]]></side>
+    <side><![CDATA[παιδίου, τό]]></side>
+    <side><![CDATA[child]]></side>
+  </card>
+  <card>
+    <side><![CDATA[παῖς]]></side>
+    <side><![CDATA[παιδός, ὁ, ἡ]]></side>
+    <side><![CDATA[child]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πάλαι]]></side>
+    <side><![CDATA[a long time ago]]></side>
+  </card>
+  <card>
+    <side><![CDATA[παλαιός -ά -όν]]></side>
+    <side><![CDATA[old]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πάλιν]]></side>
+    <side><![CDATA[back, again]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πανταχοῦ]]></side>
+    <side><![CDATA[everywhere]]></side>
+  </card>
+  <card>
+    <side><![CDATA[παρά]]></side>
+    <side><![CDATA[(gen) from; (dat) by the side of; (acc) to the side of, past, beyond]]></side>
+  </card>
+  <card>
+    <side><![CDATA[παρακελεύω]]></side>
+    <side><![CDATA[παρακελεύσω, παρεκέλευσα, παρακεκέλευκα, παρακεκέλευσμαι, παρεκελεύσθην]]></side>
+    <side><![CDATA[to encourage]]></side>
+  </card>
+  <card>
+    <side><![CDATA[παρασκευάζω]]></side>
+    <side><![CDATA[παρασκευάσω, παρεσκεύασα, παρεσκεύακα, παρεσκεύασμαι, παρεσκευάσθην]]></side>
+    <side><![CDATA[to prepare to]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πάρειμι]]></side>
+    <side><![CDATA[παρέσομαι, παρῆν]]></side>
+    <side><![CDATA[to be present]]></side>
+  </card>
+  <card>
+    <side><![CDATA[παρέχω]]></side>
+    <side><![CDATA[παρέξω, πάρεσχον, παρέσχηκα, παρέσχημαι, παρεσχέθην]]></side>
+    <side><![CDATA[to furnish, supply]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πᾶς πᾶσα πᾶν]]></side>
+    <side><![CDATA[every, all, whole]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πάσχω]]></side>
+    <side><![CDATA[πείσομαι, ἔπαθον, πέπονθα]]></side>
+    <side><![CDATA[to suffer, endure, be acted upon]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πατήρ]]></side>
+    <side><![CDATA[πατρός, ὁ]]></side>
+    <side><![CDATA[father]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πατρίς]]></side>
+    <side><![CDATA[πατρίδος, ἡ]]></side>
+    <side><![CDATA[fatherland]]></side>
+  </card>
+  <card>
+    <side><![CDATA[παύω]]></side>
+    <side><![CDATA[παύσω, ἔπαυσα, πέπαυκα, πέπαυμαι, ἐπαύθην]]></side>
+    <side><![CDATA[to stop, cease]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πεζός]]></side>
+    <side><![CDATA[on foot]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πείθω]]></side>
+    <side><![CDATA[πείσω, ἔπεισα (ἔπιθον), πέπεικα (πέποιθα), πέπεισμαι, ἐπείσθην]]></side>
+    <side><![CDATA[(act) to persuade; (midd) believe, trust, obey]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πεῖρα]]></side>
+    <side><![CDATA[πείρας, ἡ]]></side>
+    <side><![CDATA[trial, attempt]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πειράω]]></side>
+    <side><![CDATA[πειρήσω, ἐπείρησα, πεπείρηκα, πεπείρημαι, ἐπειρήθην]]></side>
+    <side><![CDATA[to make trial of, try]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πέμπω]]></side>
+    <side><![CDATA[πέμψω, ἔπεμψα, πέπομφα, πέπεμμαι, ἐπέμφθην]]></side>
+    <side><![CDATA[to send]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πέντε]]></side>
+    <side><![CDATA[five]]></side>
+  </card>
+  <card>
+    <side><![CDATA[περί]]></side>
+    <side><![CDATA[(gen) about, above; (dat) around, about; (acc) around, concerning]]></side>
+  </card>
+  <card>
+    <side><![CDATA[περιοράω]]></side>
+    <side><![CDATA[περιόψομαι, περιεῖδον, περιεόρακα, περιῶμμαι, περιώφθην]]></side>
+    <side><![CDATA[to overlook, allow]]></side>
+  </card>
+  <card>
+    <side><![CDATA[περιπέμπω]]></side>
+    <side><![CDATA[περιπέμψω, περιἔπεμψα, περιπέπομφα, περιπέπεμμαι, περιεπέμφθην]]></side>
+    <side><![CDATA[to send around]]></side>
+  </card>
+  <card>
+    <side><![CDATA[περιπλέω]]></side>
+    <side><![CDATA[περιπλεύσομαι, περιέπλευσα, περιπέπλευκα, περιπέπλευμαι, περιεπλεύσθην]]></side>
+    <side><![CDATA[to sail around]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πῆχυς]]></side>
+    <side><![CDATA[πήχεως, ὁ]]></side>
+    <side><![CDATA[forearm, cubit]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πίνω]]></side>
+    <side><![CDATA[πίομαι, ἔπιον, πέπωκα, πέπωμαι, ἐπόθην]]></side>
+    <side><![CDATA[to drink]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πίπτω]]></side>
+    <side><![CDATA[πεσοῦμαι, ἔπεσον, πέπτωκα]]></side>
+    <side><![CDATA[to fall]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πιστεύω]]></side>
+    <side><![CDATA[πιστεύσω, ἐπίστευσα, πεπίστευκα, πεπίστευμαι, ἐπιστεύθην]]></side>
+    <side><![CDATA[to trust, believe]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πίστις]]></side>
+    <side><![CDATA[πίστεως, ἡ]]></side>
+    <side><![CDATA[trust, belief]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πιστός -ή -όν]]></side>
+    <side><![CDATA[faithful, loyal, trustworthy]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πλέω]]></side>
+    <side><![CDATA[πλεύσομαι, ἔπλευσα, πέπλευκα, πέπλευσμαι, ἐπλεύσθην]]></side>
+    <side><![CDATA[to sail]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πληγή]]></side>
+    <side><![CDATA[πληγῆς, ἡ]]></side>
+    <side><![CDATA[strike]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πλῆθος]]></side>
+    <side><![CDATA[πλήθους, τό]]></side>
+    <side><![CDATA[multitude]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πλήν]]></side>
+    <side><![CDATA[(gen) except]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πληρόω]]></side>
+    <side><![CDATA[πληρώσω, ἐπλήρωσα, πεπλήρωκα, πεπλήρωμαι, ἐπληρώθην]]></side>
+    <side><![CDATA[to fill]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πλοῖον]]></side>
+    <side><![CDATA[πλοίου, τό]]></side>
+    <side><![CDATA[boat]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πλούσιος -α -ον]]></side>
+    <side><![CDATA[rich]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πλοῦτος]]></side>
+    <side><![CDATA[πλούτου, ὁ]]></side>
+    <side><![CDATA[wealth]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πόθεν]]></side>
+    <side><![CDATA[from where]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ποθέν]]></side>
+    <side><![CDATA[from some place]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ποῖ]]></side>
+    <side><![CDATA[to where? whither?]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ποι]]></side>
+    <side><![CDATA[to some place]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ποιέω]]></side>
+    <side><![CDATA[ποιήσω, ἐποίησα, πεποίηκα, πεποίημαι, ἐποιήθην]]></side>
+    <side><![CDATA[to do, make]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ποίημα]]></side>
+    <side><![CDATA[ποιήματος, τό]]></side>
+    <side><![CDATA[product, poem]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ποιητής]]></side>
+    <side><![CDATA[ποιητοῦ, ὁ]]></side>
+    <side><![CDATA[poet]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ποιμήν]]></side>
+    <side><![CDATA[ποιμένος, ὁ]]></side>
+    <side><![CDATA[shepherd, herdsman]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ποῖος -α -ον]]></side>
+    <side><![CDATA[what kind of]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ποιός -ά -όν]]></side>
+    <side><![CDATA[of some sort]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πολεμέω]]></side>
+    <side><![CDATA[πολεμήσω, ἐπολέμησα, πεπολέμηκα, πεπολέμημαι, ἐπολεμήθην]]></side>
+    <side><![CDATA[to wage war]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πολέμιος -α -ον]]></side>
+    <side><![CDATA[hostile, warlike]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πόλεμος]]></side>
+    <side><![CDATA[πολέμου, ὁ]]></side>
+    <side><![CDATA[war]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πολιορκέω]]></side>
+    <side><![CDATA[ πολιορκήσω, ἐπολιόρκησα, πεπολιόρκηκα, πεπολιόρκημαι, επολιορκήθην]]></side>
+    <side><![CDATA[to siege a city]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πόλις]]></side>
+    <side><![CDATA[πόλεως, ἡ]]></side>
+    <side><![CDATA[city]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πολίτης]]></side>
+    <side><![CDATA[πολίτου, ὁ]]></side>
+    <side><![CDATA[citizen]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πολλάκις]]></side>
+    <side><![CDATA[often, many times]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πολύς πολλή πολύ]]></side>
+    <side><![CDATA[many, much]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πονέω]]></side>
+    <side><![CDATA[πονήσομαι, ἐπονησάμην, πεπόνημαι]]></side>
+    <side><![CDATA[to work, toil]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πόνος]]></side>
+    <side><![CDATA[πόνου, ὁ]]></side>
+    <side><![CDATA[work]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πορεύω]]></side>
+    <side><![CDATA[πορεύσω, ἐπόρευσα, πεπόρευκα, πεπόρευμαι, ἐπορεύθην]]></side>
+    <side><![CDATA[(act) to convey; (midd) march, go]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πόσος -η -ον]]></side>
+    <side><![CDATA[how much?]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ποσός -ή -όν]]></side>
+    <side><![CDATA[some amount]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ποταμός]]></side>
+    <side><![CDATA[ποταμοῦ, ὁ]]></side>
+    <side><![CDATA[river]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πότε]]></side>
+    <side><![CDATA[when]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ποτέ]]></side>
+    <side><![CDATA[once, ever]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πότερος -α -ον]]></side>
+    <side><![CDATA[which of two]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ποῦ]]></side>
+    <side><![CDATA[where?]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πού]]></side>
+    <side><![CDATA[somewhere]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ποῦς]]></side>
+    <side><![CDATA[ποδός, ὁ]]></side>
+    <side><![CDATA[foot]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πράγμα]]></side>
+    <side><![CDATA[πράγματος, τό]]></side>
+    <side><![CDATA[thing, deed, event]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πράσσω (πράττω)]]></side>
+    <side><![CDATA[πράξω, ἔπραξα, πέπραχα, πέπραγμαι, ἐπράχθην]]></side>
+    <side><![CDATA[to do, accomplish]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πρέσβυς]]></side>
+    <side><![CDATA[πρέσβεως, ὁ]]></side>
+    <side><![CDATA[old man, ambassador, councilman]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πρίν]]></side>
+    <side><![CDATA[before, until]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πρό]]></side>
+    <side><![CDATA[(gen) in front of, before]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πρόθυμος -η -ον]]></side>
+    <side><![CDATA[eager]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πρός]]></side>
+    <side><![CDATA[(gen) from; (dat) near, beside; (acc) to, toward, against, regarding]]></side>
+  </card>
+  <card>
+    <side><![CDATA[προσβάλλω]]></side>
+    <side><![CDATA[προσβαλῶ, προσέβαλον, προσβέβληκα, προσβέβλημαι, προσεβλήθην]]></side>
+    <side><![CDATA[to attack]]></side>
+  </card>
+  <card>
+    <side><![CDATA[προσέρχομαι]]></side>
+    <side><![CDATA[προσελεύσομαι, προσῆλθον, προσελήλυκα,]]></side>
+    <side><![CDATA[to approach]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πρόσθεν]]></side>
+    <side><![CDATA[before]]></side>
+  </card>
+  <card>
+    <side><![CDATA[προσπίπτω]]></side>
+    <side><![CDATA[προσπεσοῦμαι, προσἐπεσον, προσπέπτωκα]]></side>
+    <side><![CDATA[to fall against]]></side>
+  </card>
+  <card>
+    <side><![CDATA[προστάσσω (προστάττω)]]></side>
+    <side><![CDATA[προστάξω, προσέταξα, προστέταχα, προστέταγμαι, προσετάχθην]]></side>
+    <side><![CDATA[to command]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πρότερος -α -ον]]></side>
+    <side><![CDATA[former]]></side>
+  </card>
+  <card>
+    <side><![CDATA[προχωρέω]]></side>
+    <side><![CDATA[προχωρήσω, προχώρησα, προκεχώρηκα]]></side>
+    <side><![CDATA[to advance]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πρῶτος -η -ον]]></side>
+    <side><![CDATA[first]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πύλη]]></side>
+    <side><![CDATA[πύλης, ἡ]]></side>
+    <side><![CDATA[gate]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πυνθάνομαι]]></side>
+    <side><![CDATA[πεύσομαι, ἐπυθόμην, πέπυσμαι]]></side>
+    <side><![CDATA[to learn]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πῦρ]]></side>
+    <side><![CDATA[πυρός, τό]]></side>
+    <side><![CDATA[fire]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πύργος]]></side>
+    <side><![CDATA[πύργου, ὁ]]></side>
+    <side><![CDATA[tower]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πῶς]]></side>
+    <side><![CDATA[how?]]></side>
+  </card>
+  <card>
+    <side><![CDATA[πως]]></side>
+    <side><![CDATA[somehow]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ῥᾷδιος -α -ον]]></side>
+    <side><![CDATA[easy]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ῥάθυμος -η -ον]]></side>
+    <side><![CDATA[easy going, careless]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ῥήγνυμι]]></side>
+    <side><![CDATA[ῥήξω, ἔρρηξα, ἔρρηχα, ἔρρηγμαι (ἔρρωγα), ἐρρήχθην]]></side>
+    <side><![CDATA[to break]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ῥήτωρ]]></side>
+    <side><![CDATA[ῥήτορος, ὁ]]></side>
+    <side><![CDATA[speaker]]></side>
+  </card>
+  <card>
+    <side><![CDATA[σαφής -ές]]></side>
+    <side><![CDATA[clear]]></side>
+  </card>
+  <card>
+    <side><![CDATA[σημαίνω]]></side>
+    <side><![CDATA[σημανῶ, ἐσήμηνα (ἐσήμανα), σεσήμακα, σεσήμασμαι, ἐσημάνθην]]></side>
+    <side><![CDATA[to show, signal, signify]]></side>
+  </card>
+  <card>
+    <side><![CDATA[σιγάω]]></side>
+    <side><![CDATA[σιγήσομαι, ἐσίγησα, σεσίγηκα, σεσίγημαι, ἐσιγήθην]]></side>
+    <side><![CDATA[to be silent]]></side>
+  </card>
+  <card>
+    <side><![CDATA[σιγή]]></side>
+    <side><![CDATA[σιγῆς, ἡ]]></side>
+    <side><![CDATA[silence]]></side>
+  </card>
+  <card>
+    <side><![CDATA[σῖτος]]></side>
+    <side><![CDATA[σίτου, ὁ]]></side>
+    <side><![CDATA[food, bread]]></side>
+  </card>
+  <card>
+    <side><![CDATA[σκηνή]]></side>
+    <side><![CDATA[σκηνῆς ἡ,]]></side>
+    <side><![CDATA[scene, tent]]></side>
+  </card>
+  <card>
+    <side><![CDATA[σκοπέω]]></side>
+    <side><![CDATA[ἐσκόπουν]]></side>
+    <side><![CDATA[to look at, examine]]></side>
+  </card>
+  <card>
+    <side><![CDATA[σοφία]]></side>
+    <side><![CDATA[σοφίας, ἡ]]></side>
+    <side><![CDATA[wisdom]]></side>
+  </card>
+  <card>
+    <side><![CDATA[σοφός -ή -όν]]></side>
+    <side><![CDATA[wise]]></side>
+  </card>
+  <card>
+    <side><![CDATA[σπένδω]]></side>
+    <side><![CDATA[σπείσω, ἔσπεισα, ἔσπεικα, ἔσπεισμαι, ἐσπείσθην]]></side>
+    <side><![CDATA[to pour a libation]]></side>
+  </card>
+  <card>
+    <side><![CDATA[σπεύδω]]></side>
+    <side><![CDATA[σπεύσω, ἔσπευσα, ἔσπευκα, ἔσπευσμαι, ἐσπεύσθην]]></side>
+    <side><![CDATA[to urge on, hasten]]></side>
+  </card>
+  <card>
+    <side><![CDATA[σπονδή ]]></side>
+    <side><![CDATA[σπονδῆς, ἡ]]></side>
+    <side><![CDATA[libation]]></side>
+  </card>
+  <card>
+    <side><![CDATA[σπουδή]]></side>
+    <side><![CDATA[σπουδῆς, ἡ]]></side>
+    <side><![CDATA[haste, eagerness]]></side>
+  </card>
+  <card>
+    <side><![CDATA[στάδιον]]></side>
+    <side><![CDATA[σταδίου, τό]]></side>
+    <side><![CDATA[stade]]></side>
+  </card>
+  <card>
+    <side><![CDATA[στέλλω]]></side>
+    <side><![CDATA[στελῶ, ἔστειλα, ἔσταλκα, ἔσταλμαι, ἐστείλθην]]></side>
+    <side><![CDATA[to send]]></side>
+  </card>
+  <card>
+    <side><![CDATA[στενός -ή -όν]]></side>
+    <side><![CDATA[narrow]]></side>
+  </card>
+  <card>
+    <side><![CDATA[στόμα]]></side>
+    <side><![CDATA[στόματος, τό]]></side>
+    <side><![CDATA[mouth, entrance]]></side>
+  </card>
+  <card>
+    <side><![CDATA[στράτευμα]]></side>
+    <side><![CDATA[στρατεύματος, τό]]></side>
+    <side><![CDATA[army]]></side>
+  </card>
+  <card>
+    <side><![CDATA[στρατεύω]]></side>
+    <side><![CDATA[στρατεύσω, ἐστράτευσα, ἐστράτευκα, ἐστράτευμαι, ἐστρατεύθην]]></side>
+    <side><![CDATA[to march, be a soldier]]></side>
+  </card>
+  <card>
+    <side><![CDATA[στρατηγός]]></side>
+    <side><![CDATA[στρατηγοῦ, ὁ]]></side>
+    <side><![CDATA[general]]></side>
+  </card>
+  <card>
+    <side><![CDATA[στρατία]]></side>
+    <side><![CDATA[στρατίας, ἡ]]></side>
+    <side><![CDATA[army]]></side>
+  </card>
+  <card>
+    <side><![CDATA[στρατιώτης]]></side>
+    <side><![CDATA[στρατιώτου, ὁ]]></side>
+    <side><![CDATA[soldier]]></side>
+  </card>
+  <card>
+    <side><![CDATA[στρατόπεδον]]></side>
+    <side><![CDATA[στρατοπέδου, τό]]></side>
+    <side><![CDATA[army camp]]></side>
+  </card>
+  <card>
+    <side><![CDATA[στρατός]]></side>
+    <side><![CDATA[στρατοῦ, ὁ]]></side>
+    <side><![CDATA[army]]></side>
+  </card>
+  <card>
+    <side><![CDATA[στρέφω]]></side>
+    <side><![CDATA[στρέψω ἔστρεψα ἔστροφα ἔστραμμαι ἐστρέφθην]]></side>
+    <side><![CDATA[to turn]]></side>
+  </card>
+  <card>
+    <side><![CDATA[σύ]]></side>
+    <side><![CDATA[you]]></side>
+  </card>
+  <card>
+    <side><![CDATA[συλλαμβάνω]]></side>
+    <side><![CDATA[συλλήψομαι, συνέλαβον, συνείληφα, συνείλημμαι, συνελήφθην]]></side>
+    <side><![CDATA[to help]]></side>
+  </card>
+  <card>
+    <side><![CDATA[συλλέγω]]></side>
+    <side><![CDATA[συλλέξω, συνέλεξα, συνείλοχα, συνείλεγμαι (συλλέλεγμαι), συνελέχθην]]></side>
+    <side><![CDATA[to gather, collect]]></side>
+  </card>
+  <card>
+    <side><![CDATA[συμβουλεύω]]></side>
+    <side><![CDATA[συμβουλεύσω, συνεβούλευσα, συμβεβούλευκα, συμβεβούλευμαι, συνεβουλεύθην]]></side>
+    <side><![CDATA[to counsel, advise]]></side>
+  </card>
+  <card>
+    <side><![CDATA[συμμαχία]]></side>
+    <side><![CDATA[συμμαχίας, ἡ]]></side>
+    <side><![CDATA[alliance]]></side>
+  </card>
+  <card>
+    <side><![CDATA[σύμμαχος]]></side>
+    <side><![CDATA[συμμάχου, ὁ]]></side>
+    <side><![CDATA[ally]]></side>
+  </card>
+  <card>
+    <side><![CDATA[συμφορά]]></side>
+    <side><![CDATA[συμφορᾶς, ἡ]]></side>
+    <side><![CDATA[misfortune]]></side>
+  </card>
+  <card>
+    <side><![CDATA[συν]]></side>
+    <side><![CDATA[(dat) with]]></side>
+  </card>
+  <card>
+    <side><![CDATA[συνάγω]]></side>
+    <side><![CDATA[συνάξω, συνήγαγον, συνῆχα, συνῆγμαι, συνήχθην]]></side>
+    <side><![CDATA[to lead together, compress]]></side>
+  </card>
+  <card>
+    <side><![CDATA[σᾠζω]]></side>
+    <side><![CDATA[σώσα, ἔσωσα, σέσωκα, σέσωμαι, ἐσώθην]]></side>
+    <side><![CDATA[to save, preserve]]></side>
+  </card>
+  <card>
+    <side><![CDATA[σῶμα]]></side>
+    <side><![CDATA[σώματος, τό]]></side>
+    <side><![CDATA[body]]></side>
+  </card>
+  <card>
+    <side><![CDATA[σωτηρία]]></side>
+    <side><![CDATA[σωτηρίας, ἡ]]></side>
+    <side><![CDATA[safety, salvation]]></side>
+  </card>
+  <card>
+    <side><![CDATA[σωφρονέω]]></side>
+    <side><![CDATA[σωφρονήσω, έσωφρόνησα, σεσωφρόνηκα, σεσωφρόνημαι, ἐσωφρονήθην]]></side>
+    <side><![CDATA[to be of sound mind, temperate, moderate]]></side>
+  </card>
+  <card>
+    <side><![CDATA[σωφροσύνη]]></side>
+    <side><![CDATA[σωφροσύνης, ἡ]]></side>
+    <side><![CDATA[moderation, temperance]]></side>
+  </card>
+  <card>
+    <side><![CDATA[σώφρων -ον]]></side>
+    <side><![CDATA[of sound mind, wise, temperate]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ταράσσω (ταράττω)]]></side>
+    <side><![CDATA[ταράξω, ἐτάραξα, τετάραχα, τετάραγμαι, ἐταράχθην]]></side>
+    <side><![CDATA[to draw up, marshall]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τάφρος]]></side>
+    <side><![CDATA[τάφρου, ὁ]]></side>
+    <side><![CDATA[ditch]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ταχύς -εῖα -ύ]]></side>
+    <side><![CDATA[swift]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τε]]></side>
+    <side><![CDATA[and]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τεῖχος]]></side>
+    <side><![CDATA[τείχους, τό]]></side>
+    <side><![CDATA[wall]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τεκών]]></side>
+    <side><![CDATA[τεκόνος, ὁ, ἡ]]></side>
+    <side><![CDATA[parent]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τέκνον]]></side>
+    <side><![CDATA[τέκνου, τό]]></side>
+    <side><![CDATA[child, offspring]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τελευταῖος -α -ον]]></side>
+    <side><![CDATA[last]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τελευτάω]]></side>
+    <side><![CDATA[τελευτήσω, ἐτελεύτησα, τετελεύτηκα, τετελεύτημαι, ἐτελευτήθην]]></side>
+    <side><![CDATA[to finish; die]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τελευτή]]></side>
+    <side><![CDATA[τελευτῆς, ἡ]]></side>
+    <side><![CDATA[end, death]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τέλος]]></side>
+    <side><![CDATA[τέλεος, τό]]></side>
+    <side><![CDATA[end]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τέμνω]]></side>
+    <side><![CDATA[τεμῶ, ἔτεμον, τέτμηκα, τέτμημαι, ἐτμήθην]]></side>
+    <side><![CDATA[to cut]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τέσσαρες (τέτταρες)]]></side>
+    <side><![CDATA[four]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τέχνη ]]></side>
+    <side><![CDATA[τέχνης, ἡ]]></side>
+    <side><![CDATA[art, skill, craft]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τήμερον]]></side>
+    <side><![CDATA[today]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τί]]></side>
+    <side><![CDATA[why?]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τίθημι]]></side>
+    <side><![CDATA[θήσω, ἐθηκα, τέθηκα, τέθημαι, ἐτέθην]]></side>
+    <side><![CDATA[to put, place, set up]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τίκτω]]></side>
+    <side><![CDATA[τέξω, ἔτεκον, τέτοκα, τέταγμαι, ἐτέχθην]]></side>
+    <side><![CDATA[to bear, produce, give birth]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τιμάω]]></side>
+    <side><![CDATA[τιμήσω, ἐτίμησα, τετίμηκα, τετίμημαι, ἐτιμήθην]]></side>
+    <side><![CDATA[to honor]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τιμή ]]></side>
+    <side><![CDATA[τιμῆς, ἡ]]></side>
+    <side><![CDATA[honor]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τίς τί]]></side>
+    <side><![CDATA[who? what?]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τις τι]]></side>
+    <side><![CDATA[anyone/thing, someone/thing]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τοιοῦτος τοιαύτη τοιοῦτο]]></side>
+    <side><![CDATA[such]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τολμάω ]]></side>
+    <side><![CDATA[τολμήσω, ἐτόλμησα, τετόλμηκα, τετόλμημαι, ἐτολμήθην]]></side>
+    <side><![CDATA[to dare, take heart]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τόξευμα]]></side>
+    <side><![CDATA[τοξεύματος, τό]]></side>
+    <side><![CDATA[arrow]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τοξεύω]]></side>
+    <side><![CDATA[τοξεύσω, ἐτόξευσα, τετόξευκα, τετόξευμαι, ἐτοξεύθην]]></side>
+    <side><![CDATA[to fire an arrow]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τόξον]]></side>
+    <side><![CDATA[τόξου, τό]]></side>
+    <side><![CDATA[bow]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τοξότης]]></side>
+    <side><![CDATA[τοξότου, ὁ]]></side>
+    <side><![CDATA[archer]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τόπος ]]></side>
+    <side><![CDATA[τόπου, ὁ]]></side>
+    <side><![CDATA[place]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τοσόσδε]]></side>
+    <side><![CDATA[so much, so many]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τοσοῦτος τοσαύτη τοσοῦτο]]></side>
+    <side><![CDATA[so great]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τότε]]></side>
+    <side><![CDATA[then]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τράπεζα]]></side>
+    <side><![CDATA[τραπέζας, ἡ]]></side>
+    <side><![CDATA[table]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τραχύς -εῖα -ύ]]></side>
+    <side><![CDATA[rough]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τρεῖς]]></side>
+    <side><![CDATA[three]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τρέπω]]></side>
+    <side><![CDATA[τρέψω, ἔτρεψα, τέτροφα, τέτραμμαι, ἐτρέφθην]]></side>
+    <side><![CDATA[to turn]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τρέφω]]></side>
+    <side><![CDATA[θρέψω, ἔθρεψα (ἔτραφον), τέτροφα, τέθραμμαι, ἐθρέφθην (ἐτράφην)]]></side>
+    <side><![CDATA[to nourish, feed]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τρέχω]]></side>
+    <side><![CDATA[θρέξομαι (δραμοῦμαι), ἔθρεξα (ἔδραμον), δεδράμηκα, δεδράμημαι]]></side>
+    <side><![CDATA[to run]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τρόπος]]></side>
+    <side><![CDATA[τρόπου, ὁ]]></side>
+    <side><![CDATA[turn, direction, course]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τυγχάνω]]></side>
+    <side><![CDATA[τεύξομαι, ἔτυχον, τετύχηκα, τετεύγμαι, ἐτεύχθην]]></side>
+    <side><![CDATA[to happen to be]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τύπτω]]></side>
+    <side><![CDATA[τύψω, ἔτυψα, τέτυπα, τέτυμμαι, ἐτύφθην]]></side>
+    <side><![CDATA[to strike, beat]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τύραννος]]></side>
+    <side><![CDATA[τυράννου, ὁ]]></side>
+    <side><![CDATA[tyrant]]></side>
+  </card>
+  <card>
+    <side><![CDATA[τύχη]]></side>
+    <side><![CDATA[τύχης, ἡ]]></side>
+    <side><![CDATA[chance, luck, fortune]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὕβρις]]></side>
+    <side><![CDATA[ὕβεως, ἡ]]></side>
+    <side><![CDATA[hubris, wanton violence, arrogance, insolence]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὑγίεια]]></side>
+    <side><![CDATA[ὑγιείας, ἡ]]></side>
+    <side><![CDATA[health]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὑγιής -ές]]></side>
+    <side><![CDATA[healthy]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὕδωρ]]></side>
+    <side><![CDATA[ὕδατος, τό]]></side>
+    <side><![CDATA[water]]></side>
+  </card>
+  <card>
+    <side><![CDATA[υἵος]]></side>
+    <side><![CDATA[υἵου, ὁ]]></side>
+    <side><![CDATA[son]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὕλη]]></side>
+    <side><![CDATA[ὕλης, ἡ]]></side>
+    <side><![CDATA[forest]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὑμεῖς]]></side>
+    <side><![CDATA[you]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὑπέρ]]></side>
+    <side><![CDATA[(gen) over, on behalf of; (acc) over, above]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὑπισχνέομαι]]></side>
+    <side><![CDATA[ὑποσχήσομαι, ὑπεσχόμην, ὑπέσχημαι]]></side>
+    <side><![CDATA[to promise, to undertake]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὕπνος]]></side>
+    <side><![CDATA[ὕπνου, ὁ]]></side>
+    <side><![CDATA[sleep]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὑπό]]></side>
+    <side><![CDATA[(gen) under, by; (dat) under; (acc) under]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὑπολαμβάνω]]></side>
+    <side><![CDATA[ὑπολήψομαι, ὑπέλαβον, ὑπείληφα, ὑπείλημμαι, ὑπελήφθην]]></side>
+    <side><![CDATA[to understand, assume, reply]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὑπομένω]]></side>
+    <side><![CDATA[ὑπομενῶ, ὑπέμεινα, ὑπομέμανα, ὑπομεμένηκα]]></side>
+    <side><![CDATA[to await, stand firm]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὗς]]></side>
+    <side><![CDATA[ὑός, ὁ, ἡ]]></side>
+    <side><![CDATA[pig]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὕστερος -α -ον]]></side>
+    <side><![CDATA[later]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὑψηλός -ή -όν]]></side>
+    <side><![CDATA[high, lofty]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φαίνω]]></side>
+    <side><![CDATA[φανῶ, ἔφηνα, πέφαγκα (πέπηνα), πέφασμαι, ἐφάνθην]]></side>
+    <side><![CDATA[to show, appear]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φανερός -ή -όν]]></side>
+    <side><![CDATA[visible]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φέρω]]></side>
+    <side><![CDATA[οἴσω, ἤνεγκα (ἤνεγκον), ἐνήνοχα, ἐνήνεγμαι, ἠνείχθην]]></side>
+    <side><![CDATA[to bear, carry]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φεύγω]]></side>
+    <side><![CDATA[φεύξομαι, ἔφυγον, πέφευγα]]></side>
+    <side><![CDATA[to flee, fly]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φημί]]></side>
+    <side><![CDATA[φήσω, ἔφησα]]></side>
+    <side><![CDATA[to say, speak, tell]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φθάνω]]></side>
+    <side><![CDATA[φθήσομαι (φθάσω), ἔφθασα (ἔφθην), ἔφθακα]]></side>
+    <side><![CDATA[to come/do before hand/before someone else, anticipate]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φθείρω ]]></side>
+    <side><![CDATA[φθερῶ, ἐφθειρα, ἔφθαρκα, ἔφθαρμαι, ἐφθάρην]]></side>
+    <side><![CDATA[to destroy]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φθονέω]]></side>
+    <side><![CDATA[φθονήσω, ἐφθόνησα, ἐφθόνηκα, ἐφθόνημαι, ἐφθονήθην]]></side>
+    <side><![CDATA[to be jealous]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φιλέω]]></side>
+    <side><![CDATA[φιλήσω, ἐφίλησα, πεφίληκα, πεφίλημαι, ἐφιλήθην]]></side>
+    <side><![CDATA[to like, love]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φιλία]]></side>
+    <side><![CDATA[φιλίας, ἡ]]></side>
+    <side><![CDATA[friendship]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φίλος -η -ον]]></side>
+    <side><![CDATA[dear]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φοβέω]]></side>
+    <side><![CDATA[φοβήσω, ἐφόβησα, πεφόβηκα, πεφόβημαι, ἐφοβήθην]]></side>
+    <side><![CDATA[(act) to terrify; (midd) to fear]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φοβέρος -α -ον]]></side>
+    <side><![CDATA[fearsome]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φόβος]]></side>
+    <side><![CDATA[φόβου, ὁ]]></side>
+    <side><![CDATA[fear]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φονεύς]]></side>
+    <side><![CDATA[φονέως, ὁ]]></side>
+    <side><![CDATA[murderer]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φράζω]]></side>
+    <side><![CDATA[φράσω, ἔφρασα, πέφρακα, πέφραμαι, ἐφράσθην]]></side>
+    <side><![CDATA[to point out, tell, explain]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φρονέω]]></side>
+    <side><![CDATA[φρονήσω, ἐφρόνησα, πεφρόνηκα, πεφρόνημαι, ἐφρονήθην]]></side>
+    <side><![CDATA[to think, consider]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φυγάς]]></side>
+    <side><![CDATA[φυγάδος, ὁ, ἡ]]></side>
+    <side><![CDATA[exiled person]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φυγή ]]></side>
+    <side><![CDATA[φυγῆς, ἡ]]></side>
+    <side><![CDATA[flight]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φυλακή]]></side>
+    <side><![CDATA[φυλακῆς, ἡ]]></side>
+    <side><![CDATA[custody]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φύλαξ]]></side>
+    <side><![CDATA[φύλακος, ὁ]]></side>
+    <side><![CDATA[guard]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φυλάσσω (φυλάττω)]]></side>
+    <side><![CDATA[φυλάξω, ἐφύλαξα, πεφύλαχα, πεφύλαγμαι, ἐφυλάχθην]]></side>
+    <side><![CDATA[to guard]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φύω]]></side>
+    <side><![CDATA[φύσω, ἔφυσα, πέφυκα, πέφυμαι, ἐφύθην]]></side>
+    <side><![CDATA[to beget, be of a nature]]></side>
+  </card>
+  <card>
+    <side><![CDATA[φωνή]]></side>
+    <side><![CDATA[φωνῆς, ἡ]]></side>
+    <side><![CDATA[voice, sound]]></side>
+  </card>
+  <card>
+    <side><![CDATA[χαίρω]]></side>
+    <side><![CDATA[χαιρήσω, ἐχάρησα, κεχάρηκα, κεχάρημαι, ἐχάρην]]></side>
+    <side><![CDATA[to rejoice]]></side>
+  </card>
+  <card>
+    <side><![CDATA[χαλεπός -ή -όν]]></side>
+    <side><![CDATA[hard, difficult]]></side>
+  </card>
+  <card>
+    <side><![CDATA[χαλκός]]></side>
+    <side><![CDATA[χαλκοῦ, ὁ]]></side>
+    <side><![CDATA[bronze, copper]]></side>
+  </card>
+  <card>
+    <side><![CDATA[χαλκοῦς -ῆ -οῦν]]></side>
+    <side><![CDATA[made of bronze, copper]]></side>
+  </card>
+  <card>
+    <side><![CDATA[χάρις]]></side>
+    <side><![CDATA[χάριτος, ἡ]]></side>
+    <side><![CDATA[grace, favor, kindness]]></side>
+  </card>
+  <card>
+    <side><![CDATA[χειμών]]></side>
+    <side><![CDATA[χειμῶνος, ὁ]]></side>
+    <side><![CDATA[winter, storm]]></side>
+  </card>
+  <card>
+    <side><![CDATA[χείρ]]></side>
+    <side><![CDATA[χειρός, ἡ]]></side>
+    <side><![CDATA[hand]]></side>
+  </card>
+  <card>
+    <side><![CDATA[χορός]]></side>
+    <side><![CDATA[χοροῦ, ὁ]]></side>
+    <side><![CDATA[dance]]></side>
+  </card>
+  <card>
+    <side><![CDATA[χορεύω]]></side>
+    <side><![CDATA[χορεύσω, ἐχόρευσα, κεχόρευκα, κεχόρευμαι, ἐχορεύθην]]></side>
+    <side><![CDATA[to dance]]></side>
+  </card>
+  <card>
+    <side><![CDATA[χράομαι]]></side>
+    <side><![CDATA[χρήσομαι, ἐχρησάμην, κέχρημαι]]></side>
+    <side><![CDATA[to use]]></side>
+  </card>
+  <card>
+    <side><![CDATA[χρή]]></side>
+    <side><![CDATA[it is necessary]]></side>
+  </card>
+  <card>
+    <side><![CDATA[χρῆμα]]></side>
+    <side><![CDATA[χρήματος, τό]]></side>
+    <side><![CDATA[thing, possession; (pl) money]]></side>
+  </card>
+  <card>
+    <side><![CDATA[χρήσιμος -η -ον]]></side>
+    <side><![CDATA[useful]]></side>
+  </card>
+  <card>
+    <side><![CDATA[χρόνος]]></side>
+    <side><![CDATA[χρόνου, ὁ]]></side>
+    <side><![CDATA[time, year]]></side>
+  </card>
+  <card>
+    <side><![CDATA[χρυσός]]></side>
+    <side><![CDATA[χρυσοῦ, ὁ]]></side>
+    <side><![CDATA[gold]]></side>
+  </card>
+  <card>
+    <side><![CDATA[χῶρα]]></side>
+    <side><![CDATA[χώρας, ἡ]]></side>
+    <side><![CDATA[land]]></side>
+  </card>
+  <card>
+    <side><![CDATA[χωρέω]]></side>
+    <side><![CDATA[χωρήσω, ἐχώρησα, κεχώρηκα]]></side>
+    <side><![CDATA[to come, go]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ψευδής -ές]]></side>
+    <side><![CDATA[0]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ψεῦδος]]></side>
+    <side><![CDATA[ψεύδεος, τό]]></side>
+    <side><![CDATA[lie]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ψεύδω]]></side>
+    <side><![CDATA[ψεύσω, ἔψευσα, ἔψευκα, ἔψευσμαι, ἐψεύσθην]]></side>
+    <side><![CDATA[to lie, cheat, deceive]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ψηφίζω]]></side>
+    <side><![CDATA[ψηφιῶ, ἐψήφισα, ἐψήφικα, ἐψήφισμαι, ἐψηφίσθην]]></side>
+    <side><![CDATA[to vote (with a pebble)]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ψῆφος]]></side>
+    <side><![CDATA[ψήφου, ἡ]]></side>
+    <side><![CDATA[pebble, small stone]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ψυχή]]></side>
+    <side><![CDATA[ψυχῆς, ἡ]]></side>
+    <side><![CDATA[spirit, life, soul]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὧδε]]></side>
+    <side><![CDATA[thus]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὥρα]]></side>
+    <side><![CDATA[ὥρας, ἡ]]></side>
+    <side><![CDATA[hour]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὡς]]></side>
+    <side><![CDATA[so that; how; because]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὥσπερ]]></side>
+    <side><![CDATA[just as]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὥστε]]></side>
+    <side><![CDATA[so that]]></side>
+  </card>
+  <card>
+    <side><![CDATA[ὠφελέω]]></side>
+    <side><![CDATA[ὠφελήσω, ὠφέλησα, ὠφέληκα, ὠφέλημαι, ὠφελήθην]]></side>
+    <side><![CDATA[to help, aid]]></side>
+  </card>
+</cards>
